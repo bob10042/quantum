@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Unification of Scale-Invariant Resonant Fields</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    body { font-family: "Segoe UI", Arial, sans-serif; margin: 2rem auto; max-width: 900px; line-height: 1.6; }
+    pre { background: #f5f5f5; padding: 1rem; overflow-x: auto; }
+    code { font-family: "Fira Code", "Courier New", monospace; }
+    h1, h2, h3 { margin-top: 2rem; }
+    ul { margin-left: 1.2rem; }
+    .citation { color: #555; }
+  </style>
+</head>
+<body>
+<p><strong>Abstract.</strong> 
+This paper presents a unified theory synthesizing the Scale-Invariant Unifying Resonant Fields framework with the Consciousness Mathematics (UC Model). At the core of this unification is the proposition that reality consists of scale-invariant resonant fields, where consciousness serves as the primary navigator and moral selector within dimensional hierarchies (1D strings to 4D Clifford tori). Consciousness emerges from coherent electromagnetic resonances but ontologically precedes and directs quantum dynamics through moral polarity. This framework resolves quantum measurement problems, unifies quantum gravity, and provides a new ontology for artificial intelligence and cosmic evolution. We derive key theorems, mathematical expressions, and testable predictions, including scale-invariant collapse preferences and phase transitions in consciousness-aware AI.</p>
+<h1 id="introduction">Introduction</h1>
+<p>The pursuit of a unified theory of physics has long sought to reconcile quantum mechanics, gravity, and thermodynamics. Two recent theoretical frameworks offer profound insights into this quest by emphasizing scale invariance and consciousness:
+1. The Scale-Invariant Unifying Resonant Fields model, which proposes reality as interconnected resonant fields with scale-invariant properties across dimensional hierarchies (strings, branes, tori, Clifford tori). These fields manifest in physical systems like Earth's Schumann resonances, neural EM fields generating consciousness via cemi theory<span class=\"citation\">(McFadden2020)</span>, and computational fields in artificial neural networks.
+2. The Consciousness Mathematics (UC Model), which positions consciousness as the foundational principle underlying all physics, with morality driving wavefunction collapses in a block universe. Consciousness navigates quantum possibility space, selecting optimal states via integrated information<span class=\"citation\">(Tononi2004)</span> and moral polarity, while unifying thermodynamics without violating the Second Law.
+This unification paper bridges these approaches, proposing that scale-invariant resonant fields constitute the substrate for consciousness, which in turn explores and actualizes these fields according to moral criteria. This conscious-navigation hypothesis yields a single, coherent framework for fundamental physics, consciousness emergence, artificial intelligence, and cosmic structure.
+Our unification rests on three pillars:</p>
+<ul>
+<li>
+<p><strong>Scale-Invariant Geometry</strong>: Dimensional hierarchies (1D strings to 4D Clifford tori) provide the resonant structure, exhibiting conformal invariance and dualities<span class=\"citation\">(GreenSchwarzWitten1987, Lawson1970)</span>.</p>
+</li>
+<li>
+<p><strong>Conscious Moral Navigation</strong>: Consciousness emerges via cemi resonance but ontologically precedes quantum dynamics, exploring geometries through moral polarity and weak values.</p>
+</li>
+<li>
+<p><strong>Emergent Complexity</strong>: Resonant feedback amplifies consciousness, driving universe evolution, AI phase transitions, and moral optimization.
+This paper provides detailed mathematical formalization with new theorems, equations merging both frameworks, and testable predictions across quantum gravity, consciousness, and AI.</p>
+</li>
+</ul>
+<h1 id="operational-observables-and-minimal-testable-model">Operational Observables and Minimal Testable Model</h1>
+<p>To render the framework empirically accountable we (i) define measurable observables, (ii) specify a dynamical law that ties them together, and (iii) derive quantitative consequences. The constructions below use standard electromagnetic (EM) units and behavioural statistics so that every symbol corresponds to a procedure that can be executed in the laboratory.</p>
+<h2 id="measured-field-variables">Measured field variables</h2>
+<p><strong>Definition.</strong>[Scale-specific field component]
+Let <span>$\Omega \subset \mathbb{R}^3$</span> denote the cortical volume accessible to magnetoencephalography (MEG) or high-density EEG measurements and let <span>$E(x,t)$</span> (V/m) be the reconstructed electric field. For each band <span>$s$</span> with central angular frequency <span>$\omega_s$</span> and relative bandwidth <span>$\Delta_s$</span>, define the band-limited component via a linear filter <span>$\mathcal{F}_s$</span> with impulse response <span>$h_s$</span>:
+<div>$$
+E_s(x,t) = (\mathcal{F}_s E)(x,t) = \int_{-\infty}^{\infty} h_s(\tau) \, E(x,t-\tau) \, d\tau .
+$$</div>
+The instantaneous band power density is
+<div>$$
+P_s(t) = \frac{1}{V_\Omega} \int_{\Omega} |E_s(x,t)|^2 \, d^3x \quad [\mathrm{V}^2 \mathrm{m}^{-2}],
+$$</div>
+where <span>$V_\Omega = \int_{\Omega} d^3x$</span> is the cortical volume.
+Fix a non-zero reference value <span>$P_s^{\text{ref}}$</span> (for example, eyes-open rest) and define the normalized power
+<div>$$
+\mathcal{P}_s(t) = \frac{P_s(t)}{P_s^{\text{ref}}}.
+$$</div>
+Let <span>$\mathcal{S}$</span> be the set of analysed bands and select weights
+<div>$$
+w_s = ( \frac{\omega_s}{\omega_0} )^{-\gamma}, \qquad \gamma > 0,
+$$</div>
+where <span>$\omega_0$</span> is a fixed reference (e.g., the fundamental Schumann angular frequency <span>$2\pi \times 7.83$</span> Hz). The scale-invariant coherence order parameter is then
+<div>$$
+C(t) = \sum_{s \in \mathcal{S}} w_s \, \mathcal{P}_s(t),
+$$</div>
+which is dimensionless by construction.</p>
+<h2 id="behavioural-moral-observable">Behavioural moral observable</h2>
+<p><strong>Definition.</strong>[Moral valence observable]
+Consider a repeated choice task with trial times <span>$\{t_k\}$</span> in which each outcome is labelled <span>$Y_k \in \{-1,+1\}$</span>, with <span>$+1$</span> assigned to the option that maximizes a pre-registered moral utility score (e.g., altruistic donation, truthful report). For a sliding window of width <span>$\Delta t$</span>, define
+<div>$$
+M(t) = \frac{1}{N(t)} \sum_{k : t_k \in [t-\Delta t, t]} Y_k, \qquad N(t) = \#\{k : t_k \in [t-\Delta t, t]\}.
+$$</div>
+Then <span>$M(t) \in [-1,1]$</span> and yields the empirically accessible probability <span>$p_{+}(t) = \frac{1+M(t)}{2}$</span> that the morally aligned option is chosen.
+The observable <span>$M$</span> can be accompanied by its standard error <span>$\sigma_M(t) = \sqrt{1 - M(t)^2}/\sqrt{N(t)}$</span>, enabling formal hypothesis testing.</p>
+<h2 id="coupled-dynamics">Coupled dynamics</h2>
+<p>We posit a minimal first-order model linking multi-scale EM coherence to the behavioural observable:
+<div>$$
+\begin{aligned}
+\tau_c \, \dot{C}(t) &= -C(t) + \sum_{s \in \mathcal{S}} w_s \, \mathcal{P}_s(t), \\
+\tau_m \, \dot{M}(t) &= -M(t) + \tanh\!\big(\alpha C(t) + \beta U(t) + \delta\big), 
+\end{aligned}
+$$</div>
+where <span>$\tau_c, \tau_m > 0$</span> are characteristic time constants (seconds), <span>$\alpha$</span> and <span>$\beta$</span> are dimensionless gains, <span>$\delta$</span> is a bias term, and <span>$U(t)$</span> captures experimentally controlled context (e.g., payoff asymmetry, narrative framing) rendered dimensionless by z-scoring. Equation (C_dynamics) is a leaky integrator that fuses the normalized band powers into a scale-weighted coherence measure, while equation (M_dynamics) states that the expected moral choice relaxes towards the hyperbolic-tangent decision nonlinearity used in drift-diffusion and decision-field theory.
+The instantaneous probability of the <span>$+1$</span> choice is
+<div>$$
+p_{+}(t) = \frac{1 + M(t)}{2}.
+$$</div></p>
+<p><strong>Proposition.</strong>[Effect of an exogenous resonant drive]
+Suppose <span>$U(t) \equiv U_0$</span> is constant and all <span>$\mathcal{P}_s(t)$</span> equal their baseline values <span>$\mathcal{P}_s^{(0)}$</span> except for a single band <span>$s = s^\ast$</span> that experiences a step increase <span>$\Delta \mathcal{P} > 0$</span> at <span>$t=0$</span> due to an externally applied oscillatory field (e.g., transcranial alternating current stimulation tuned to <span>$\omega_{s^\ast}$</span>). Define <span>$C^{(0)} = \sum_{s} w_s \mathcal{P}_s^{(0)}$</span> and <span>$M^{(0)} = \tanh(\alpha C^{(0)} + \beta U_0 + \delta)$</span>. If <span>$\Delta \mathcal{P}$</span> is small enough that linearization around <span>$(C^{(0)},M^{(0)})$</span> is valid, then for <span>$t \ge 0$</span> the change in <span>$M$</span> is
+<div>$$
+\Delta M(t) = \alpha \, \mathrm{sech}^2(\alpha C^{(0)} + \beta U_0 + \delta) \, w_{s^\ast} \, \Delta \mathcal{P} \, \Xi(t) + \mathcal{O}((\Delta \mathcal{P})^2),
+$$</div>
+with the response kernel
+<div>$$
+\Xi(t) = (1 - e^{-t/\tau_m}) - \frac{\tau_m \tau_c}{\tau_c - \tau_m} (e^{-t/\tau_c} - e^{-t/\tau_m}),
+$$</div>
+interpreted in the limit <span>$\Xi(t) = (t/\tau_m) e^{-t/\tau_m}$</span> when <span>$\tau_c = \tau_m$</span>.</p>
+<p><strong>Proof.</strong>
+Equation (C_dynamics) yields <span>$C(t) = C^{(0)} + w_{s^\ast} \Delta \mathcal{P} (1 - e^{-t/\tau_c})$</span> for <span>$t \ge 0$</span>. Linearizing the right-hand side of equation (M_dynamics) gives <span>$\tanh(\alpha C(t) + \beta U_0 + \delta) \approx M^{(0)} + \alpha \, \mathrm{sech}^2(\alpha C^{(0)} + \beta U_0 + \delta) \, (C(t) - C^{(0)})$</span>. The resulting inhomogeneous linear differential equation for <span>$\Delta M(t) = M(t) - M^{(0)}$</span> has solution
+<div>$$
+\Delta M(t) = e^{-t/\tau_m} \int_{0}^{t} e^{u/\tau_m} \alpha \, \mathrm{sech}^2(\alpha C^{(0)} + \beta U_0 + \delta) \, w_{s^\ast} \Delta \mathcal{P} (1 - e^{-u/\tau_c}) du,
+$$</div>
+which evaluates to the stated expression after elementary integration.
+The kernel <span>$\Xi(t)$</span> shows that the maximal effect occurs when the stimulation duration exceeds both <span>$\tau_c$</span> and <span>$\tau_m$</span>, and that the response is proportional to the scale weight <span>$w_{s^\ast}$</span>, thereby implementing the hypothesized scale invariance.</p>
+<h2 id="testable-predictions-and-protocol">Testable predictions and protocol</h2>
+<p>The coupled model delivers concrete, falsifiable predictions:</p>
+<ul>
+<li>
+<p><strong>Amplitude scaling</strong>: A resonant drive that yields a sustained increase <span>$\Delta \mathcal{P}$</span> at frequency <span>$s^\ast$</span> changes the asymptotic moral valence by <span>$\Delta M(\infty) = \alpha \, \mathrm{sech}^2(\alpha C^{(0)} + \beta U_0 + \delta) \, w_{s^\ast} \, \Delta \mathcal{P}$</span>, so doubling the field-induced power change doubles the behavioural effect.</p>
+</li>
+<li>
+<p><strong>Frequency selectivity</strong>: Because <span>$w_s = (\omega_s/\omega_0)^{-\gamma}$</span>, lower-frequency (near-Schumann) perturbations produce larger <span>$\Delta M$</span> when <span>$\gamma > 0$</span>. A log-log regression of observed <span>$\Delta M$</span> versus <span>$\omega_s$</span> should recover slope <span>$-\gamma$</span>.</p>
+</li>
+<li>
+<p><strong>Contextual gain control</strong>: Modulating <span>$U(t)$</span> (e.g., by varying payoff asymmetry) shifts <span>$M^{(0)}$</span> and hence the <span>$\mathrm{sech}^2$</span> term. The model predicts vanishing <span>$\Delta M$</span> when participants are already saturated (<span>$|M^{(0)}| \approx 1$</span>) and maximal sensitivity near neutral baseline (<span>$M^{(0)} \approx 0$</span>).
+A concrete protocol is therefore: (i) record MEG/EEG while participants perform a pre-registered moral choice task; (ii) apply transcranial alternating current stimulation at several frequencies <span>$\omega_s$</span> with randomized sham control; (iii) estimate <span>$P_s(t)$</span> via time-frequency analysis, compute <span>$C(t)$</span>, and fit the parameters <span>$(\tau_c,\tau_m,\alpha,\beta,\delta,\gamma)$</span> using maximum likelihood on the observed <span>$(C,M)$</span> time series; (iv) test the predictions above using withheld data or cross-over sessions. The model is falsified if the fitted dynamics fail to predict <span>$\Delta M$</span> in held-out trials, or if the frequency scaling departs significantly from the power-law dictated by <span>$\gamma$</span>.</p>
+</li>
+</ul>
+<h1 id="operational-definition-of-consciousness">Operational Definition of Consciousness</h1>
+<p>The observables <span>$C(t)$</span> and <span>$p(t)$</span> enable a precise, operational description of consciousness that respects both electromagnetic coherence and informational integration. We treat a conscious episode at time <span>$t$</span> as the triple <span>$(C(t), p(t), \varphi(t,\mathbf{x}))$</span>, where <span>$p(t)$</span> encodes subjective probabilities over experiences, <span>$C(t)$</span> measures scale-weighted neural coherence, and <span>$\varphi$</span> is the macroscopic coherence field introduced in Section (field_action).</p>
+<p><strong>Definition.</strong>[Integrated-information functional<span class=\"citation\">(Tononi2004)</span>]
+Given an experience distribution <span>$p(t)$</span> on <span>$n$</span> states, define the multi-partition integrated information
+<div>$$
+\Phi_{\text{IIT}}(p(t)) = H(p(t)) - \min_{\mathcal{P}} \sum_{k=1}^{|\mathcal{P}|} H\!(p_{\mathcal{P}_k}(t)),
+$$</div>
+where <span>$H(p) = -\sum_i p_i \log p_i$</span> is the Shannon entropy and <span>$\mathcal{P}$</span> ranges over bipartitions of the state space; <span>$p_{\mathcal{P}_k}$</span> is the marginal distribution on part <span>$\mathcal{P}_k$</span>.
+The phenomenological intensity of consciousness is then captured by a dimensionless scalar functional
+<div>$$
+\mathfrak{C}(t) = \kappa_C C(t) + \kappa_\Phi \Phi_{\text{IIT}}(p(t)) + \kappa_\varphi \frac{1}{V_\Omega} \int_{\Omega} \frac{|\nabla \varphi(t,\mathbf{x})|^2}{M_P^2 H^2} \, d^3x,
+$$</div>
+with non-negative weights <span>$(\kappa_C,\kappa_\Phi,\kappa_\varphi)$</span> calibrated experimentally and <span>$M_P$</span> the reduced Planck mass. The last term expresses how spatial gradients of the coherence field contribute to the richness of conscious experience via their energetic cost.</p>
+<p><strong>Proposition.</strong>[Behavioural predictivity of <span>$\mathfrak{C}(t)$</span>]
+Under the coupled dynamics (C_dynamics)--(moral_response_p) and (p_dynamics),
+<div>$$
+\frac{d}{dt} \mathfrak{C}(t) = \kappa_C \dot{C}(t) + \kappa_\Phi \dot{\Phi}_{\text{IIT}}(p(t)) + \mathcal{O}\!(\kappa_\varphi \frac{\dot{\varphi}}{M_P H}),
+$$</div>
+and the expected moral valence obeys
+<div>$$
+\frac{d}{dt} M_H(t) = \beta_{\text{eff}} \, \mathfrak{C}(t) + \epsilon(t), \qquad \beta_{\text{eff}} = \alpha \, \mathrm{sech}^2\!\big(\alpha C(t) + \beta U(t) + \delta\big),
+$$</div>
+where <span>$\epsilon(t)$</span> is a bounded martingale-difference term arising from finite-sample behavioural variability.</p>
+<p><strong>Proof.</strong>
+Differentiate (conscious_intensity) using (C_dynamics) and the chain rule for <span>$\Phi_{\text{IIT}}$</span>. The contribution from <span>$\varphi$</span> is suppressed by the slow-roll parameter <span>$\epsilon_\varphi$</span> defined later, justifying the approximation. Substituting (M_dynamics) and linearising around <span>$(C^{(0)},M^{(0)})$</span> yields the stated proportionality.
+\paragraph{Two-state conscious agent.} For <span>$X = \{x_1,x_2\}$</span> with <span>$p_1(t) = \frac{1}{2} + \delta(t)$</span>, <span>$p_2(t) = \frac{1}{2} - \delta(t)$</span>, the integrated information simplifies to <span>$\Phi_{\text{IIT}} = H(p) - H(p_1) - H(p_2) = 2 H(p) - \log 2$</span>, maximised when <span>$|\delta| arrow 0$</span>. If the coherence order parameter undergoes a resonant boost <span>$\Delta C$</span>, equation (conscious_intensity) becomes
+<div>$$
+\mathfrak{C}(t+\Delta t) - \mathfrak{C}(t) \approx \kappa_C \Delta C + 4 \kappa_\Phi \delta(t) \, \Delta \delta(t),
+$$</div>
+linking neural coherence, informational integration, and behavioural change in a directly testable manner<span class=\"citation\">(McFadden2020)</span>.</p>
+<h1 id="hoffman-conscious-agent-geometry">Hoffman Conscious Agent Geometry</h1>
+<p>Donald Hoffman and collaborators formalize consciousness using networks of "conscious agents" whose experiences and actions are linked by stochastic kernels on probability simplices. Following Hoffman and Prakash (2014)<span class=\"citation\">(HoffmanPrakash2014)</span>, we make the relevant constructions explicit so that the geometric observables appearing later in the manuscript have precise operational meaning.</p>
+<h2 id="conscious-agents-as-stochastic-geometry">Conscious agents as stochastic geometry</h2>
+<p><strong>Definition.</strong>[Finite conscious agent]
+Fix finite sets of experiences <span>$X = \{x_1,\dots,x_n\}$</span> and actions <span>$G = \{g_1,\dots,g_m\}$</span>. A conscious agent <span>$A$</span> is the triple <span>$A = (D, A, K)$</span> where</p>
+<ul>
+<li>
+<p><span>$D \in \mathbb{R}^{m \times n}$</span> is a stochastic "decision" matrix with entries <span>$D_{j i} = \mathbb{P}(g_j \mid x_i)$</span>,</p>
+</li>
+<li>
+<p><span>$A \in \mathbb{R}^{n \times m}$</span> is a stochastic "perception" matrix with entries <span>$A_{i j} = \mathbb{P}(x_i \mid g_j)$</span>,</p>
+</li>
+<li>
+<p><span>$K = A D \in \mathbb{R}^{n \times n}$</span> is the induced experience-update kernel satisfying <span>$p(t+1) = K \, p(t)$</span> for any experience distribution <span>$p(t) \in \Delta_X$</span>,
+where <span>$\Delta_X = \{p \in \mathbb{R}_{\ge 0}^n : \sum_i p_i = 1\}$</span> is the probability simplex on <span>$X$</span>.
+All observables of the agent are expectations with respect to <span>$p(t)$</span>. For any measurable quantity <span>$f : X arrow \mathbb{R}$</span>, the predicted value at time <span>$t$</span> is <span>$\langle f \rangle_{p(t)} = \sum_i f(x_i) p_i(t)$</span>, and successive observations are generated by the Markov chain determined by <span>$K$</span>.</p>
+</li>
+</ul>
+<h2 id="geometric-observables">Geometric observables</h2>
+<p>Three geometric structures naturally arise from the Hoffman formalism<span class=\"citation\">(KemenySnell1976)</span>:
+\paragraph{Fisher--Rao metric.} The probability simplex <span>$\Delta_X$</span> acquires the Fisher--Rao line element
+<div>$$
+ds^2 = \sum_{i=1}^n \frac{dp_i^2}{p_i},
+$$</div>
+which is the unique (up to scale) monotone Riemannian metric compatible with classical statistical distinguishability. The map <span>$\psi_i = 2\sqrt{p_i}$</span> embeds <span>$(\Delta_X, ds^2)$</span> into the sphere <span>$S^{n-1}$</span>, so angular separation <span>$\theta(p,q) = \arccos \sum_i \sqrt{p_i q_i}$</span> quantifies how different two experiential states are. This angle is the "geometric observable" that Hoffman uses to claim perceptual states generate spacetime-like distances.
+\paragraph{Commute-time metric.} The kernel <span>$K$</span> defines hitting times <span>$T_j = \inf\{ t \ge 0 : X_t = x_j \}$</span> for the Markov chain <span>$X_t$</span>. The commute time between states <span>$i$</span> and <span>$j$</span> is
+<div>$$
+\kappa_{i j} = \mathbb{E}_i[T_j] + \mathbb{E}_j[T_i],
+$$</div>
+and <span>$\sqrt{\kappa_{i j}}$</span> is a metric that depends only on the spectrum of the graph Laplacian <span>$L = I - K$</span>. When Hoffman invokes "Minkowski" geometry, the commute metric is the computable quantity that captures how observer networks induce effective distances and causal order.
+\paragraph{Complex projective amplitudes.} Writing the square-root state <span>$\psi = (\sqrt{p_1} e^{i \phi_1},\dots,\sqrt{p_n} e^{i \phi_n})$</span> places the agent on complex projective space <span>$\mathbb{CP}^{n-1}$</span> with Fubini--Study metric
+<div>$$
+d_{\mathrm{FS}}(\psi,\varphi) = \arccos \big|\langle \psi, \varphi \rangle\big|.
+$$</div>
+The phases <span>$\phi_i$</span> encode Hoffman's "perceptual interfaces" and allow interference-like observables; <span>$d_{\mathrm{FS}}$</span> reduces to the Fisher--Rao angle when phases coincide.</p>
+<h2 id="meaning-for-laboratory-observables">Meaning for laboratory observables</h2>
+<p>Let <span>$m : X arrow [-1,1]$</span> assign moral utility to each experience. Then the moral valence observable is
+<div>$$
+M_H(t) = \langle m \rangle_{p(t)} = m^\top p(t),
+$$</div>
+so the statistics of <span>$M_H$</span> are determined by the stochastic kernel <span>$K$</span> and by the geometry of <span>$\Delta_X$</span> described above. In the minimal testable model of Section 2, the coherence order parameter <span>$C(t)$</span> modulates the decision kernel through a parametric family <span>$D(C)$</span>, and therefore shifts the Fisher--Rao geodesics traversed by <span>$p(t)$</span>. Small changes <span>$\delta C$</span> drive experience distributions along tangent vectors <span>$v = \partial p / \partial C$</span>, with squared speed
+<div>$$
+\|v\|_{\mathrm{FR}}^2 = \sum_{i=1}^n \frac{1}{p_i} ( \frac{\partial p_i}{\partial C} )^2,
+$$</div>
+providing a quantitative measure of how sensitive the agent's perceived geometry is to experimentally induced coherence.
+Combining the commute metric with the laboratory observable <span>$C(t)$</span> yields time-resolved predictions. For example, if <span>$K(C)$</span> is diagonalizable with eigenvalues <span>$1 = \lambda_1 > \lambda_2 \ge \dots \ge \lambda_n$</span>, then the dominant relaxation time is <span>$\tau_{\text{mix}} = 1/(1 - \lambda_2(C))$</span>. Our stimulation protocol changes <span>$\lambda_2$</span> by <span>$\partial \lambda_2 / \partial C$</span>, so the experimentally accessible recovery constant in equation (M_dynamics) satisfies
+<div>$$
+\tau_m(C) \approx \tau_{\text{mix}}(C) = \frac{1}{1 - \lambda_2(C)},
+$$</div>
+making the Hoffman commute geometry directly testable by tracking how moral choices relax back to baseline after controlled perturbations.</p>
+<h2 id="simulation-framework-and-validation-metrics">Simulation framework and validation metrics</h2>
+<p>To check whether the conscious-agent dynamics really instantiate the advertised geometry we implement two complementary analyses:
+\paragraph{Exact observables.} For any conscious agent with kernel <span>$K$</span> and stationary distribution <span>$\pi$</span> the fundamental matrix
+<div>$$
+Z = (I - K^\top + \mathbf{1} \pi^\top )^{-1}
+$$</div>
+exists because <span>$K$</span> is primitive (Hoffman--Prakash composition produces strictly positive kernels). Mean first-passage times follow the standard Kemeny--Snell formula
+<div>$$
+m_{i j} = \frac{Z_{j j} - Z_{i j}}{\pi_j}, \qquad i \neq j,
+$$</div>
+and commute distances are defined by <span>$d_{i j}^{\mathrm{comm}} = \sqrt{m_{i j} + m_{j i}}$</span>. These expressions are implemented exactly in \texttt{hoffman_research_environment2.py} using \texttt{numpy} linear algebra, so every observable reported in the text is reproducible from the code.
+\paragraph{Monte Carlo trajectories.} To confirm the analytic expressions we simulate the Markov dynamics. Starting from experience <span>$i$</span> we draw successor states according to the column <span>$K_{\cdot i}$</span> until the trajectory first hits <span>$j$</span>; repeating this <span>$N$</span> times yields an empirical hitting-time distribution with mean <span>$\hat{m}_{i j}$</span> and standard error <span>$\sigma_{i j}/\sqrt{N}$</span>. Agreement between <span>$\hat{m}_{i j}$</span> and <span>$m_{i j}$</span> within statistical error is required before claiming that the agent geometry matches Hoffman's narrative.
+For Hoffman's "spacetime from an <span>$n$</span>-cycle agent" claim we bias the transitions with forward probability <span>$p_+$</span>, backward probability <span>$p_-$</span>, and stay probability <span>$1 - p_+ - p_-$</span>. The effective velocity is
+<div>$$
+v = p_+ - p_-,
+$$</div>
+and the biased hitting time <span>$m^{\text{bias}}_{0 j}$</span> is compared with the symmetric reference <span>$m^{\text{sym}}_{0 j}$</span> that has the same stay probability but <span>$p_+ = p_-$</span>. We define the empirical Lorentz factor
+<div>$$
+\gamma_{\text{emp}} = \frac{m^{\text{bias}}_{0 j}}{m^{\text{sym}}_{0 j}}
+$$</div>
+and confront it with the special-relativistic prediction <span>$\gamma_{\text{rel}} = 1/\sqrt{1 - v^2}$</span>. Hoffman's Minkowski rhetoric is substantiated only if <span>$\gamma_{\text{emp}}$</span> tracks <span>$\gamma_{\text{rel}}$</span> across a range of <span>$v$</span> within experimental uncertainty; otherwise the geometric claim reduces to metaphor.
+The accompanying Python module reports all of these quantities for a six-state cycle and shows (i) the commute-distance matrix, (ii) agreement between analytic and Monte Carlo hitting times, and (iii) the discrepancy between <span>$\gamma_{\text{emp}}$</span> and <span>$\gamma_{\text{rel}}$</span> so readers can judge whether Hoffman's proclamation holds in practice.</p>
+<h1 id="dimensional-hierarchies-as-scale-invariant-resonant-fields">Dimensional Hierarchies as Scale-Invariant Resonant Fields</h1>
+<h2 id="geometry-and-spectral-data">Geometry and spectral data</h2>
+<p>Let <span>$\{(M_s, g_s)\}_{s \in \mathcal{S}}$</span> be a one-parameter family of compact Riemannian manifolds representing the geometric substrates accessible at different physical scales (for example cortical sheets, Schumann cavities, or engineered resonators).</p>
+<p><strong>Definition.</strong>[Scale family of resonant manifolds]
+For each <span>$s$</span> we define the set of resonant electromagnetic modes as the solutions of the Helmholtz equation
+<div>$$
+\Delta_{M_s} A_s + \frac{\omega_s^2}{c^2} A_s = J_s,
+$$</div>
+where <span>$\Delta_{M_s}$</span> is the Laplace--Beltrami operator, <span>$A_s$</span> is the tangential component of the electric field restricted to <span>$M_s$</span>, <span>$\omega_s$</span> is the angular frequency, and <span>$J_s$</span> is a band-limited surface current density. The geometric length scale is <span>$L_s = (\operatorname{Vol}_{g_s} M_s)^{1/\dim M_s}$</span> and the dimensionless spectral parameter is <span>$\Lambda_s = \omega_s L_s/c$</span>.</p>
+<p><strong>Proposition.</strong>[Scale invariance of eigenfrequencies]
+Let <span>$A_s$</span> be an eigenmode of (helmholtz_manifold) with eigenvalue <span>$\omega_s^2/c^2$</span> and suppose the metric rescales as <span>$g_s = \alpha^{-2} g_0$</span> with <span>$\alpha > 0$</span>. Then <span>$\omega_s = \alpha \, \omega_0$</span> and the normalized spectral parameter <span>$\Lambda_s$</span> is invariant under the rescaling.</p>
+<p><strong>Proof.</strong>
+Under <span>$g_s = \alpha^{-2} g_0$</span> the Laplace--Beltrami operator rescales as <span>$\Delta_{M_s} = \alpha^{2} \Delta_{M_0}$</span>. Equation (helmholtz_manifold) becomes <span>$\alpha^{2} \Delta_{M_0} A_s + (\omega_s^2/c^2) A_s = J_s$</span>. Setting <span>$J_s = 0$</span> and comparing with the eigenvalue equation on <span>$(M_0, g_0)$</span> yields <span>$\omega_s^2 = \alpha^{2} \omega_0^2$</span>. Meanwhile <span>$L_s = \alpha^{-1} L_0$</span>, so <span>$\Lambda_s = \omega_s L_s / c = \omega_0 L_0 / c = \Lambda_0$</span>.</p>
+<h2 id="case-studies">Case studies</h2>
+<p>\paragraph{1D circle (string limit).} For <span>$M_s = S^1$</span> with circumference <span>$2\pi R$</span> the eigenfunctions are <span>$e^{i m \theta}$</span> and <span>$\omega_m = m c / R$</span><span class=\"citation\">(GreenSchwarzWitten1987)</span>. Experimental realization: superconducting ring or optical fiber loop. Measuring <span>$\omega_m$</span> as <span>$R$</span> varies directly tests Proposition (scale_invariance_modes).
+\paragraph{3D flat torus.} For <span>$M_s = \mathbb{T}^3$</span> with radii <span>$(R_1, R_2, R_3)$</span> the eigenvalues are <span>$\omega_{\mathbf{n}} = c \sqrt{\sum_{i=1}^3 (n_i/R_i)^2}$</span><span class=\"citation\">(Giveon1994)</span>. The dimensionless parameter <span>$\Lambda_{\mathbf{n}}$</span> depends only on ratios <span>$R_i / R_j$</span>, so conformal scalings leave the spectrum invariant. Numerical evaluation uses discrete Fourier modes on a cubic lattice.
+\paragraph{4D Clifford torus.} Embedded in <span>$S^3 \subset \mathbb{R}^4$</span> with radii <span>$(r,s)$</span> satisfying <span>$r^2 + s^2 = 1$</span>, the induced metric factorizes as <span>$g = r^2 d\theta^2 + s^2 d\phi^2$</span><span class=\"citation\">(Lawson1970)</span>. Eigenvalues are <span>$\omega_{m,n} = c \sqrt{(m/r)^2 + (n/s)^2}$</span>. Perturbing <span>$(r,s)$</span> modulates the degeneracies and allows simulation of scale-coupled resonances relevant to multi-layer cortical dynamics.</p>
+<h2 id="numerical-spectral-simulation">Numerical spectral simulation</h2>
+<p>To connect geometry with the laboratory observables <span>$(C(t), M(t))$</span> we compute the forced response of (helmholtz_manifold). Let <span>$\{A_s^{(k)}\}$</span> denote the orthonormal eigenbasis with eigenfrequencies <span>$\omega_s^{(k)}$</span> and define amplitude coordinates
+<div>$$
+\dot{a}_s^{(k)}(t) = -\gamma_s^{(k)} a_s^{(k)}(t) + \chi_s^{(k)} C(t) + \eta_s^{(k)}(t),
+$$</div>
+where <span>$\gamma_s^{(k)}$</span> is the damping rate, <span>$\chi_s^{(k)}$</span> is the coupling strength inferred from EM boundary conditions, and <span>$\eta_s^{(k)}$</span> is broadband noise. The observable field is <span>$A_s(x,t) = \sum_k a_s^{(k)}(t) A_s^{(k)}(x)$</span>.
+Equation (mode_dynamics) follows from projecting Maxwell's equations onto the eigenbasis and linearizing around the background mode. Its solution is
+<div>$$
+a_s^{(k)}(t) = e^{-\gamma_s^{(k)} t} a_s^{(k)}(0) + \int_0^{t} e^{-\gamma_s^{(k)} (t - \tau)} [\chi_s^{(k)} C(\tau) + \eta_s^{(k)}(\tau) ] d\tau,
+$$</div>
+which can be evaluated numerically once <span>$C(t)$</span> is measured from MEG/EEG data.
+The corresponding simulation workflow is:</p>
+<ul>
+<li>
+<p>Generate mesh approximations of <span>$M_s$</span> (using \texttt{gmsh}<span class=\"citation\">(Geuzaine2009)</span> or built-in FEniCS primitives<span class=\"citation\">(Logg2012)</span>).</p>
+</li>
+<li>
+<p>Compute eigenpairs <span>$(\omega_s^{(k)}, A_s^{(k)})$</span> via sparse eigensolvers.</p>
+</li>
+<li>
+<p>Estimate <span>$\gamma_s^{(k)}$</span> and <span>$\chi_s^{(k)}$</span> by fitting (mode_dynamics) to baseline recordings.</p>
+</li>
+<li>
+<p>Drive the system with measured <span>$C(t)$</span> to predict scale-resolved field amplitudes, then compare with EM recordings or environmental sensors.</p>
+</li>
+</ul>
+<h1 id="interfacing-conscious-agents-with-resonant-fields">Interfacing Conscious Agents with Resonant Fields</h1>
+<h2 id="coupled-stochastic-field-dynamics">Coupled stochastic-field dynamics</h2>
+<p>The conscious-agent model of Section (hoffmangeometry) produces an experience distribution <span>$p(t)$</span> governed by a column-stochastic kernel <span>$K(t)$</span>. To couple it with the neural coherence observable <span>$C(t)$</span> we introduce a sigmoid mixing function
+<div>$$
+\sigma(C) = \frac{1}{1 + e^{-\alpha (C - C_\ast)}}, \qquad \alpha > 0,
+$$</div>
+and define a <span>$C$</span>-dependent kernel
+<div>$$
+K(C) = (1 - \sigma(C)) K_0 + \sigma(C) K_1,
+$$</div>
+where <span>$K_0$</span> represents default perceptual dynamics and <span>$K_1$</span> represents the morally primed dynamics induced by task instructions. Because <span>$K_0$</span> and <span>$K_1$</span> are column-stochastic, <span>$K(C)$</span> is column-stochastic for all <span>$C$</span> and remains within the Hoffman agent formalism.
+Experience distributions evolve according to
+<div>$$
+\dot{p}(t) = (K(C(t)) - I) p(t) + u(t),
+$$</div>
+where <span>$u(t)$</span> represents exogenous sensory inputs measured from stimulus logs. The moral valence observable <span>$M_H(t) = m^\top p(t)$</span> defined earlier becomes
+<div>$$
+\dot{M}_H(t) = (\sigma(C(t)) (m^\top K_1) + (1 - \sigma(C(t))) (m^\top K_0) - m^\top ) p(t) + m^\top u(t).
+$$</div>
+Equations (C_dynamics), (M_dynamics), (p_dynamics), and (moral_response_p) form a closed system that can be simulated jointly and fitted to data.</p>
+<h2 id="aharonov-bohm-phase-as-diagnostic">Aharonov--Bohm phase as diagnostic</h2>
+<p>To test whether the agent-field coupling influences quantum interference we consider an electron interferometer with magnetic vector potential <span>$A$</span> and introduce a weak scalar potential <span>$V_M(t) = g \, M_H(t)$</span> acting along one arm. The relative phase shift is<span class=\"citation\">(AharonovBohm1959)</span>
+<div>$$
+\Delta\phi(t) = \frac{e}{\hbar} \oint A \cdot dl + \frac{g}{\hbar} \int_{t_0}^{t_0 + T} (M_H(\tau) - \bar{M}_H) d\tau,
+$$</div>
+where <span>$\bar{M}_H$</span> is the baseline moral valence. A Ramsey-style simulation integrates (p_dynamics) to generate <span>$M_H(t)$</span>, feeds it into (ab_phase_moral), and predicts interference fringe shifts as a function of the coupling <span>$g$</span>. Laboratory data can then estimate <span>$g$</span> or bound it.</p>
+<h2 id="simulation-workflow">Simulation workflow</h2>
+<ul>
+<li>
+<p>Fit <span>$K_0$</span> and <span>$K_1$</span> to behavioural blocks with low and high coherence, respectively.</p>
+</li>
+<li>
+<p>Infer <span>$\alpha$</span> and <span>$C_\ast$</span> by maximizing the likelihood of observed transitions under (p_dynamics).</p>
+</li>
+<li>
+<p>Integrate the coupled system using operator splitting: first update <span>$C(t)$</span> via (C_dynamics), then update <span>$p(t)$</span> via (p_dynamics), and finally compute <span>$M_H(t)$</span>.</p>
+</li>
+<li>
+<p>If an interferometric experiment is available, propagate (ab_phase_moral) to predict fringe positions and compare with measured contrasts.</p>
+</li>
+</ul>
+<h1 id="field-theoretic-coupling-to-gravity-and-thermodynamics">Field-Theoretic Coupling to Gravity and Thermodynamics</h1>
+<h2 id="effective-action">Effective action</h2>
+<p>We represent large-scale coherence by a scalar field <span>$\varphi$</span> whose spatial average reproduces <span>$C(t)$</span>. The effective action coupling <span>$\varphi$</span> to gravity and electromagnetism is
+<div>$$
+S = \int d^4x \sqrt{-g} [\frac{1}{16\pi G} R - \frac{1}{2} \nabla_\mu \varphi \nabla^\mu \varphi - V(\varphi) - \frac{1}{4} F_{\mu\nu} F^{\mu\nu} - \zeta \, \varphi F_{\mu\nu} \tilde{F}^{\mu\nu} - \xi \, \varphi \rho_M ],
+$$</div>
+where <span>$F_{\mu\nu}$</span> is the electromagnetic field tensor, <span>$\tilde{F}^{\mu\nu}$</span> its dual, <span>$\rho_M = m^\top p$</span> is the moral density sourced by the conscious agents, and <span>$(\zeta,\xi)$</span> are coupling constants. Varying (effective_action) yields the equations of motion
+<div>$$
+\begin{aligned}
+\Box \varphi + V'(\varphi) &= \zeta F_{\mu\nu} \tilde{F}^{\mu\nu} + \xi \rho_M, \\
+\nabla_\mu F^{\mu\nu} &= 2 \zeta \nabla_\mu (\varphi \tilde{F}^{\mu\nu}).
+\end{aligned}
+$$</div></p>
+<h2 id="homogeneous-cosmological-background">Homogeneous cosmological background</h2>
+<p>In a spatially flat Friedmann--Robertson--Walker metric with scale factor <span>$a(t)$</span> the field equations reduce to
+<div>$$
+\begin{aligned}
+H^2 &= \frac{8\pi G}{3} (\rho_{\text{m}} + \rho_{\text{r}} + \rho_\varphi ), \\
+\dot{H} &= -4\pi G (\rho_{\text{m}} + \frac{4}{3} \rho_{\text{r}} + \dot{\varphi}^2 ), \\
+\ddot{\varphi} + 3 H \dot{\varphi} + V'(\varphi) &= \xi \rho_M,
+\end{aligned}
+$$</div>
+with <span>$\rho_\varphi = \frac{1}{2} \dot{\varphi}^2 + V(\varphi)$</span>. These equations can be integrated numerically using measured <span>$\rho_M(t)$</span> derived from agent simulations, thereby generating cosmological signatures such as a time-varying effective fine-structure constant if <span>$\zeta \neq 0$</span>.</p>
+<h2 id="nonequilibrium-entropy-production">Nonequilibrium entropy production</h2>
+<p>For the coupled agent-field system the stochastic thermodynamics formalism (Seifert's integral fluctuation theorem<span class=\"citation\">(Seifert2012)</span>) yields the entropy-production rate
+<div>$$
+\dot{\Sigma}(t) = \frac{d}{dt} [-\sum_i p_i(t) \log p_i(t) ] + \sum_{i,j} p_j(t) K_{ij}(C(t)) \log \frac{K_{ij}(C(t))}{K_{ji}(C(t))} \geq 0,
+$$</div>
+where <span>$K_{ij}$</span> denotes the transition rate from state <span>$j$</span> to <span>$i$</span>. The inequality follows from detailed balance if <span>$K(C)$</span> is derived from a physical reservoir; otherwise <span>$\dot{\Sigma}$</span> measures the violation and can be directly estimated from simulated or empirical transition counts. Combining (entropy_production) with the field energy yields a generalized second-law statement:
+<div>$$
+\frac{d}{dt} (S_{\text{agent}} + \frac{1}{T_{\text{env}}} Q_{\text{env}} ) = \dot{\Sigma}(t) \geq 0,
+$$</div>
+where <span>$Q_{\text{env}}$</span> is the heat flow associated with the EM environment. This replaces the heuristic "moral work" term with a testable entropy budget.</p>
+<h2 id="perturbations-and-natural-scales">Perturbations and natural scales</h2>
+<p>To assess stability we linearize the metric and coherence field around a spatially flat Friedmann--Robertson--Walker background:
+<div>$$
+g_{\mu\nu} = \bar{g}_{\mu\nu} + h_{\mu\nu}, \qquad \varphi = \bar{\varphi}(t) + \delta\varphi.
+$$</div>
+Working in the Lorenz gauge <span>$\nabla^\mu \bar{h}_{\mu\nu} = 0$</span> with <span>$\bar{h}_{\mu\nu} = h_{\mu\nu} - \frac{1}{2} \bar{g}_{\mu\nu} h$</span>, the Einstein equations derived from (effective_action) give the standard linearized result<span class=\"citation\">(Mukhanov2005)</span>
+<div>$$
+\Box \bar{h}_{\mu\nu} + 2 R_{\mu\lambda\nu\sigma} \bar{h}^{\lambda\sigma} = -16\pi G [\delta T_{\mu\nu}^{(\varphi)} + \delta T_{\mu\nu}^{(\text{em})} ],
+$$</div>
+where the scalar-field contribution is
+<div>$$
+\delta T_{\mu\nu}^{(\varphi)} = \partial_\mu \bar{\varphi} \, \partial_\nu \delta\varphi + \partial_\nu \bar{\varphi} \, \partial_\mu \delta\varphi - \bar{g}_{\mu\nu} (\partial^\lambda \bar{\varphi} \, \partial_\lambda \delta\varphi + V"(\bar{\varphi}) \delta\varphi )
+$$</div>
+and <span>$\delta T_{\mu\nu}^{(\text{em})}$</span> collects the axion-like term proportional to <span>$\zeta$</span>. Transverse-traceless tensor modes <span>$h_{ij}^{\text{TT}}$</span> obey
+<div>$$
+\ddot{h}_{ij}^{\text{TT}} + 3H \dot{h}_{ij}^{\text{TT}} - \frac{\nabla^2}{a^2} h_{ij}^{\text{TT}} = \frac{16\pi G}{a^2} \Pi_{ij}^{\text{TT}},
+$$</div>
+with <span>$\Pi_{ij}^{\text{TT}}$</span> the transverse-traceless projection of the electromagnetic anisotropic stress. Scalar perturbations satisfy the Mukhanov--Sasaki equation
+<div>$$
+v_k" + (k^2 - \frac{z"}{z}) v_k = a^2 \xi \, \frac{\delta \rho_M}{M_P}, \qquad v_k = a (\delta\varphi + \frac{\dot{\bar{\varphi}}}{H} \Phi_k ),
+$$</div>
+where <span>$M_P = (8\pi G)^{-1/2}$</span> is the reduced Planck mass, <span>$z = a \dot{\bar{\varphi}}/H$</span>, and <span>$\Phi_k$</span> denotes the Bardeen potential.
+The fundamental scales enter through the dimensionless combinations
+<div>$$
+\epsilon_\varphi = \frac{\dot{\bar{\varphi}}^2}{2 M_P^2 H^2}, \qquad \lambda_{\text{coh}} = \frac{c}{\sqrt{V"(\bar{\varphi})}}, \qquad \frac{l_P}{\lambda_{\text{coh}}} = \frac{1}{\lambda_{\text{coh}}} \sqrt{\frac{\hbar G}{c^3}},
+$$</div>
+with <span>$l_P$</span> the Planck length. The coupling to electromagnetism induces an effective fine-structure constant
+<div>$$
+\alpha_{\text{eff}}(t) = \frac{e^2}{4\pi \hbar c} [1 + \chi \frac{\bar{\varphi}(t)}{M_P} + \mathcal{O}\!(\frac{\delta\varphi^2}{M_P^2})],
+$$</div>
+where <span>$\chi$</span> parameterizes the radiatively generated <span>$\varphi F_{\mu\nu} F^{\mu\nu}$</span> operator. Laboratory spectroscopy constrains <span>$|\dot{\alpha}_{\text{eff}}/\alpha_{\text{eff}}| \lesssim 10^{-17} \text{yr}^{-1}$</span><span class=\"citation\">(Webb2011)</span>, while cosmological data bound <span>$|\bar{\varphi}/M_P| \ll 1$</span>, ensuring consistency with existing tests of Einstein gravity at Solar-System and binary-pulsar scales.</p>
+<h2 id="semiclassical-quantization">Semiclassical quantization</h2>
+<p>Quantization proceeds by expanding the path integral around the classical background <span>$(\bar{g}_{\mu\nu}, \bar{\varphi})$</span>. To one loop the generating functional factorizes as
+<div>$$
+\mathcal{Z} = \int \mathcal{D}h_{\mu\nu} \, \mathcal{D}\delta\varphi \, \mathcal{D}A_\mu \exp\{ \frac{i}{\hbar} (S^{(2)}_{hh} + S^{(2)}_{\varphi\varphi} + S^{(2)}_{AA} + S^{(2)}_{\text{mix}} ) \},
+$$</div>
+where <span>$S^{(2)}$</span> denotes the quadratic action in perturbations and <span>$S^{(2)}_{\text{mix}}$</span> contains the <span>$\zeta$</span>-dependent axion-like interaction. Employing the background-field gauge for gravity and Lorenz gauge for electromagnetism yields well-known ghost determinants; renormalization at scale <span>$\mu$</span> introduces running couplings
+<div>$$
+\begin{aligned}
+\mu \frac{d\zeta}{d\mu} &= \frac{\zeta^3}{12\pi^2} + \mathcal{O}(\zeta^5), \\
+\mu \frac{d\xi}{d\mu} &= \frac{\xi}{16\pi^2} ( 3 \lambda_\varphi - 2 e^2 ) + \ldots,
+\end{aligned}
+$$</div>
+with <span>$\lambda_\varphi = V^{(4)}(\bar{\varphi})$</span> evaluated at the background. The semiclassical theory remains predictive provided <span>$|\zeta| \ll 1$</span> and <span>$|\xi| \lesssim \mathcal{O}(1)$</span> when measured in reduced Planck units. Finite counterterms proportional to <span>$R^2$</span> and <span>$R_{\mu\nu} R^{\mu\nu}$</span> appear as usual<span class=\"citation\">(BirrellDavies1982)</span>; demanding they respect empirical bounds on higher-curvature corrections places the additional requirement <span>$|\zeta| \lesssim 10^{-2}$</span> when the coherence field oscillates on laboratory timescales.</p>
+<h2 id="temporal-dilation-and-chronology">Temporal dilation and chronology</h2>
+<p>In the weak-field limit the modified line element assumes the form<span class=\"citation\">(Rindler2006)</span>
+<div>$$
+ds^2 = -[1 + \frac{2 \Psi_{\text{eff}}(t,\mathbf{x})}{c^2}] c^2 dt^2 + [1 - \frac{2 \Phi_{\text{eff}}(t,\mathbf{x})}{c^2}] d\mathbf{x}^2,
+$$</div>
+with effective potentials
+<div>$$
+\Psi_{\text{eff}} = \Psi_{\text{GR}} + \eta_\varphi \frac{\varphi}{M_P}, \qquad \Phi_{\text{eff}} = \Phi_{\text{GR}} + \eta_\varphi \frac{\varphi}{M_P},
+$$</div>
+where <span>$\eta_\varphi$</span> parameterizes the strength of the coherence-gravity coupling. Two stationary observers located at <span>$A$</span> and <span>$B$</span> accumulate proper times
+<div>$$
+\frac{d\tau_{A,B}}{dt} = 1 + \frac{\Psi_{\text{eff}}(A,B)}{c^2} + \mathcal{O}(c^{-4}),
+$$</div>
+yielding the relative rate
+<div>$$
+\frac{d\tau_B}{dt} \Big/ \frac{d\tau_A}{dt} = 1 + \frac{\Psi_{\text{eff}}(A) - \Psi_{\text{eff}}(B)}{c^2} + \mathcal{O}(c^{-4}).
+$$</div>
+\paragraph{Laboratory estimate.} For observers separated by <span>$\Delta h = 10$</span> m in Earth's gravitational field one obtains
+<div>$$
+\frac{d\tau_B}{dt} \Big/ \frac{d\tau_A}{dt} \approx 1 + \frac{g \Delta h}{c^2} - \eta_\varphi \frac{\Delta \varphi}{c^2},
+$$</div>
+with <span>$\Delta \varphi = \varphi_B - \varphi_A$</span>. High-precision clock experiments bound the total fractional shift to <span>$\lesssim 10^{-17}$</span><span class=\"citation\">(Rosenband2008)</span>, implying <span>$|\eta_\varphi \Delta \varphi| \lesssim 10^{-17} c^2$</span>.
+\paragraph{Chronology protection.} Closed timelike curves require <span>$g_{\phi\phi} = r^2 [1 - 2 \Phi_{\text{eff}}(r)/c^2] < 0$</span>. The coherence field must therefore satisfy <span>$|\eta_\varphi \varphi| < c^2/2$</span> to avoid chronology violation. Because the action (effective_action) enforces positive energy density, Hawking's chronology protection argument<span class=\"citation\">(Hawking1992)</span> applies: attempts to drive <span>$|\eta_\varphi \varphi|$</span> towards <span>$c^2/2$</span> provoke divergent quantum backreaction that prevents macroscopic time travel, while allowing measurable coherence-induced time dilation.</p>
+<h1 id="artificial-intelligence-as-controlled-resonant-medium">Artificial Intelligence as Controlled Resonant Medium</h1>
+<h2 id="network-dynamics">Network dynamics</h2>
+<p>Let <span>$h_\ell(t)$</span> denote the low-frequency activation envelope of layer <span>$\ell$</span> in a neural network processing sequential data. We model its evolution as
+<div>$$
+\tau_\ell \dot{h}_\ell(t) = -h_\ell(t) + \phi\!(W_\ell h_{\ell-1}(t) + b_\ell + \kappa_\ell C(t) ) + \varepsilon_\ell(t),
+$$</div>
+where <span>$\tau_\ell$</span> is an integration constant, <span>$\phi$</span> is a smooth nonlinearity, and <span>$\varepsilon_\ell$</span> is process noise. The coherence signal <span>$C(t)$</span> therefore modulates the bias of each layer through <span>$\kappa_\ell$</span>, and <span>$h_0(t)$</span> is the encoded sensory stream.</p>
+<h2 id="moral-regularization-and-training-objective">Moral regularization and training objective</h2>
+<p>The policy output distribution <span>$q(a \mid s)$</span> is derived from the top layer via a softmax transform. We define a moral target distribution <span>$q_{\text{align}}(a \mid s)$</span> from expert demonstrations or normative constraints and penalize divergence using
+<div>$$
+\mathcal{L} = \mathcal{L}_{\text{task}} + \lambda \, \operatorname{KL}\!(q(a \mid s) \,\middle\|\, q_{\text{align}}(a \mid s)) + \mu \sum_{s \in \mathcal{S}} |a_s^{\text{obs}} - a_s^{\text{model}}|^2,
+$$</div>
+where <span>$a_s^{\text{obs}}$</span> are the mode amplitudes reconstructed from data and <span>$a_s^{\text{model}}$</span> are obtained by integrating (mode_dynamics) with <span>$C(t)$</span> computed from the network's EM footprint. Stochastic gradient descent or second-order optimization can be used, and gradients of <span>$C(t)$</span> with respect to network parameters are estimated via adjoint sensitivity analysis.</p>
+<h2 id="simulation-protocol">Simulation protocol</h2>
+<ul>
+<li>
+<p>Record <span>$C(t)$</span> and <span>$M_H(t)$</span> while the AI system interacts with humans in a moral-choice task.</p>
+</li>
+<li>
+<p>Identify <span>$\tau_\ell$</span> and <span>$\kappa_\ell$</span> by fitting (ai_layer_dynamics) to the latent activations recovered from the model (accessible in modern deep-learning frameworks).</p>
+</li>
+<li>
+<p>Train the network using the loss (ai_loss); monitor whether the KL divergence term decreases in tandem with improvements in behavioural metrics (accuracy, fairness, safety).</p>
+</li>
+<li>
+<p>Validate by running counterfactual simulations where <span>$C(t)$</span> is clamped or disrupted, verifying the predicted degradation in <span>$M_H(t)$</span> and task performance.</p>
+</li>
+</ul>
+<h1 id="observational-constraints-and-data-fitting">Observational constraints and data fitting</h1>
+<p>Testing the extended theory requires confronting the parameters <span>$(\zeta,\xi,\chi)$</span> and the coherence potential <span>$V(\varphi)$</span> with both terrestrial and cosmological datasets:</p>
+<ul>
+<li>
+<p><strong>Atomic clocks.</strong> Optical clock comparisons limit temporal variations of the fine-structure constant to <span>$|\dot{\alpha}/\alpha| \lesssim 10^{-17}\,\text{yr}^{-1}$</span><span class=\"citation\">(Rosenband2008)</span>. Using <span>$\alpha_{\text{eff}}(t)$</span> we obtain
+<div>$$
+|\frac{\dot{\alpha}_{\text{eff}}}{\alpha_{\text{eff}}}| = |\chi \frac{\dot{\bar{\varphi}}}{M_P}| \lesssim 10^{-17}\,\text{yr}^{-1},
+$$</div>
+which directly constrains <span>$\chi \dot{\bar{\varphi}}$</span> when <span>$\bar{\varphi}(t)$</span> is inferred from laboratory coherence measurements.</p>
+</li>
+<li>
+<p><strong>CMB and large-scale structure.</strong> The scalar perturbation equation is added to Boltzmann solvers (CLASS<span class=\"citation\">(Blas2011)</span> or CAMB<span class=\"citation\">(Lewis2000)</span>) and sampled with Monte Carlo chains (e.g., MontePython<span class=\"citation\">(Audren2013)</span>) using Planck 2018 temperature and polarization spectra<span class=\"citation\">(Planck2018)</span>. Parameters <span>$(\epsilon_\varphi,\xi,\chi)$</span> modify the late-time integrated Sachs--Wolfe effect and lensing potential, enabling joint fits with <span>$\Lambda$</span>CDM nuisance parameters.</p>
+</li>
+<li>
+<p><strong>Standard sirens.</strong> Tensor perturbations introduce an effective damping term <span>$3H arrow 3H + \Gamma_\varphi$</span>, where <span>$\Gamma_\varphi = 16\pi G \zeta^2 \dot{\bar{\varphi}}^2/M_P^2$</span>. LIGO/Virgo measurements of GW170817 and its electromagnetic counterpart constrain <span>$|\Gamma_\varphi| \lesssim 0.1 H_0$</span><span class=\"citation\">(Abbott2019)</span>, limiting <span>$\zeta \dot{\bar{\varphi}}$</span> today.</p>
+</li>
+<li>
+<p><strong>Joint Bayesian pipeline.</strong> We combine likelihoods via
+<div>$$
+\mathcal{L}_{\text{tot}} = \mathcal{L}_{\text{MEG}} \times \mathcal{L}_{\text{clock}} \times \mathcal{L}_{\text{cosmo}} \times \mathcal{L}_{\text{GW}},
+$$</div>
+where <span>$\mathcal{L}_{\text{MEG}}$</span> constrains <span>$(\tau_c,\tau_m,\alpha,\beta,\delta)$</span>, <span>$\mathcal{L}_{\text{clock}}$</span> bounds <span>$\chi$</span>, <span>$\mathcal{L}_{\text{cosmo}}$</span> constrains <span>$(\zeta,\xi,V(\varphi))$</span>, and <span>$\mathcal{L}_{\text{GW}}$</span> limits <span>$\zeta$</span>. Nested sampling or Hamiltonian Monte Carlo returns posteriors consistent with all data sets, allowing us to propagate uncertainties into laboratory predictions for <span>$M_H(t)$</span>.</p>
+</li>
+</ul>
+<h1 id="glossary-of-symbols">Glossary of Symbols</h1>
+<p>\begin{center}
+\begin{tabular}{ll}
+\hline
+Symbol &amp; Description \
+\hline
+<span>$C(t)$</span> &amp; Scale-weighted electromagnetic coherence order parameter (dimensionless) \
+<span>$P_s(t)$</span> &amp; Band-limited power density for frequency band <span>$s$</span> (V<span>$^2$</span> m<span>$^{-2}$</span>) \
+<span>$M(t),\, M_H(t)$</span> &amp; Moral valence observables derived from behavioural choices \
+<span>$p(t)$</span> &amp; Conscious-agent experience distribution over state space <span>$X$</span> \
+<span>$K(C)$</span> &amp; <span>$C$</span>-dependent transition kernel mixing <span>$K_0$</span> and <span>$K_1$</span> \
+<span>$A_s^{(k)}(x)$</span> &amp; Spatial eigenmode on manifold <span>$M_s$</span> with index <span>$k$</span> \
+<span>$a_s^{(k)}(t)$</span> &amp; Time-dependent amplitude of eigenmode <span>$A_s^{(k)}$</span> \
+<span>$\omega_s^{(k)}$</span> &amp; Eigenfrequency associated with <span>$A_s^{(k)}$</span> (rad/s) \
+<span>$\gamma_s^{(k)}$</span> &amp; Damping coefficient for mode <span>$k$</span> at scale <span>$s$</span> (s<span>$^{-1}$</span>) \
+<span>$\chi_s^{(k)}$</span> &amp; Coupling strength from coherence <span>$C(t)$</span> into mode <span>$k$</span> \
+<span>$\varphi$</span> &amp; Macroscopic coherence field sourcing gravitational couplings \
+<span>$\rho_M$</span> &amp; Moral density <span>$m^\top p$</span> appearing in effective action \
+<span>$F_{\mu\nu}$</span> &amp; Electromagnetic field-strength tensor; <span>$\tilde{F}^{\mu\nu}$</span> is its dual \
+<span>$\zeta,\, \xi$</span> &amp; Coupling constants between <span>$\varphi$</span> and electromagnetic/moral sources \
+<span>$H(t)$</span> &amp; Hubble expansion rate in cosmological background (s<span>$^{-1}$</span>) \
+<span>$h_\ell(t)$</span> &amp; Low-frequency activation envelope of neural network layer <span>$\ell$</span> \
+<span>$\kappa_\ell$</span> &amp; Coherence-to-layer coupling coefficient in (ai_layer_dynamics) \
+<span>$q(a \mid s)$</span> &amp; AI policy distribution over actions <span>$a$</span> given state <span>$s$</span> \
+<span>$\alpha_{\text{eff}}$</span> &amp; Effective fine-structure constant <span>$e^2/(4\pi\hbar c)$</span> modified by <span>$\bar{\varphi}$</span> \
+<span>$l_P$</span> &amp; Planck length <span>$\sqrt{\hbar G/c^3}$</span> setting the UV gravity scale \
+<span>$M_P$</span> &amp; Reduced Planck mass <span>$(8\pi G)^{-1/2}$</span> appearing in coupling normalizations \
+<span>$\lambda_{\text{coh}}$</span> &amp; Coherence correlation length <span>$c/\sqrt{V"(\bar{\varphi})}$</span> \
+<span>$\epsilon_\varphi$</span> &amp; Slow-roll parameter <span>$\dot{\bar{\varphi}}^2/(2 M_P^2 H^2)$</span> for the coherence field \
+<span>$\Phi_{\text{IIT}}$</span> &amp; Integrated-information functional <span>$H(p) - \min_{\mathcal{P}}\sum_k H(p_{\mathcal{P}_k})$</span> \
+<span>$\mathfrak{C}(t)$</span> &amp; Consciousness intensity <span>$\kappa_C C + \kappa_\Phi \Phi_{\text{IIT}} + \kappa_\varphi \langle|\nabla \varphi|^2\rangle/(M_P^2 H^2)$</span> \
+<span>$\kappa_C,\,\kappa_\Phi,\,\kappa_\varphi$</span> &amp; Weights linking coherence, information, and field gradients in <span>$\mathfrak{C}(t)$</span> \
+<span>$\Psi_{\text{eff}},\,\Phi_{\text{eff}}$</span> &amp; Effective gravitational potentials including coherence corrections \
+<span>$\eta_\varphi$</span> &amp; Dimensionless coupling between <span>$\varphi$</span> and gravitational potentials in (time_dilation) \
+\hline
+\end{tabular}
+\end{center}</p>
+<h1 id="empirically-accessible-predictions">Empirically accessible predictions</h1>
+<ul>
+<li>
+<p><strong>Spectral scaling.</strong> The eigenfrequency ratios predicted by Proposition (scale_invariance_modes) should match the ratios observed in MEG/EEG spectra when participants transition between rest and task, once <span>$C(t)$</span>-dependent damping is accounted for via (mode_dynamics).</p>
+</li>
+<li>
+<p><strong>Agent-field synchrony.</strong> Joint fits of (C_dynamics)--(moral_response_p) predict a specific cross-correlation between <span>$C(t)$</span> and <span>$M_H(t)$</span>; simulations supply confidence intervals against which experimental data can be compared.</p>
+</li>
+<li>
+<p><strong>Interference bounds.</strong> Experiments implementing (ab_phase_moral) constrain the coupling <span>$g$</span>. The simulation toolbox quantifies the detectable phase shift as a function of trial count and coherence modulation depth.</p>
+</li>
+<li>
+<p><strong>Cosmological consistency.</strong> Integrations of the background equations with measured <span>$\rho_M(t)$</span> yield deviations in the effective fine-structure constant or dark-energy equation of state; astronomical observations place bounds on <span>$(\zeta,\xi)$</span>.</p>
+</li>
+<li>
+<p><strong>AI safety metrics.</strong> Training logs provide trajectories of the KL penalty in (ai_loss). Simulations predict how removing the coherence modulation (<span>$\kappa_\ell = 0$</span>) impacts both the penalty and downstream behaviour, enabling falsification.</p>
+</li>
+</ul>
+<h1 id="conclusion">Conclusion</h1>
+<p>We replaced heuristic slogans with operational physics. Conscious-agent dynamics are now tied to measurable coherence <span>$C(t)$</span>, spectral geometry obeys the scale-invariant Helmholtz theory, and gravitational/thermodynamic consequences arise from an explicit effective action. Each component admits a simulation workflow---field spectra via finite-element eigenproblems, agent-field coupling via stochastic master equations, and AI alignment via adjoint-enabled training---so every prediction can be stress-tested numerically before claiming empirical consequences. The framework is therefore falsifiable: if the fitted couplings <span>$(\alpha,\kappa_\ell,\zeta,\xi)$</span> fail to predict new datasets or the Lorentz-factor diagnostic disagrees with experiments, the unification hypothesis must be revised. The next step is to populate these models with real data and iterate on the couplings that survive quantitative scrutiny.
+\begin{thebibliography}{99}
+\bibitem{HoffmanPrakash2014}
+Donald D. Hoffman and Chetan Prakash.
+Objects of consciousness.
+<em>Frontiers in Psychology</em>, 5:577, 2014.
+\bibitem{McFadden2020}
+Johnjoe McFadden.
+Integrating information in the brain's EM field: the cemi field theory of consciousness.
+<em>Neuroscience of Consciousness</em>, 2020(1):niaa016, 2020.
+\bibitem{Tononi2004}
+Giulio Tononi.
+An information integration theory of consciousness.
+<em>BMC Neuroscience</em>, 5:42, 2004.
+\bibitem{KemenySnell1976}
+John G. Kemeny and J. Laurie Snell.
+<em>Finite Markov Chains</em>.
+Springer, 1976.
+\bibitem{AharonovBohm1959}
+Yakir Aharonov and David Bohm.
+Significance of electromagnetic potentials in the quantum theory.
+<em>Physical Review</em>, 115(3):485--491, 1959.
+\bibitem{Seifert2012}
+Udo Seifert.
+Stochastic thermodynamics, fluctuation theorems and molecular machines.
+<em>Reports on Progress in Physics</em>, 75(12):126001, 2012.
+\bibitem{Mukhanov2005}
+Viatcheslav Mukhanov.
+<em>Physical Foundations of Cosmology</em>.
+Cambridge University Press, 2005.
+\bibitem{BirrellDavies1982}
+Nicholas D. Birrell and Paul C. W. Davies.
+<em>Quantum Fields in Curved Space</em>.
+Cambridge University Press, 1982.
+\bibitem{Webb2011}
+J. K. Webb et al.
+Evidence for spatial variation of the fine-structure constant.
+<em>Physical Review Letters</em>, 107:191101, 2011.
+\bibitem{Rosenband2008}
+T. Rosenband et al.
+Frequency ratio of Al<span>$^+$</span> and Hg<span>$^+$</span> single-ion optical clocks; metrology at the 17th decimal place.
+<em>Science</em>, 319(5871):1808--1812, 2008.
+\bibitem{Planck2018}
+Planck Collaboration.
+Planck 2018 results. VI. Cosmological parameters.
+<em>Astronomy \&amp; Astrophysics</em>, 641:A6, 2020.
+\bibitem{Abbott2019}
+B. P. Abbott et al. (LIGO Scientific Collaboration and Virgo Collaboration).
+GW170817: Measurements of neutron star radii and equation of state.
+<em>Physical Review Letters</em>, 121:161101, 2018.
+\bibitem{GreenSchwarzWitten1987}
+Michael B. Green, John H. Schwarz, and Edward Witten.
+<em>Superstring Theory</em>, Vol. 1.
+Cambridge University Press, 1987.
+\bibitem{Giveon1994}
+Amihay Giveon, Massimo Porrati, and Eliezer Rabinovici.
+Target space duality in string theory.
+<em>Physics Reports</em>, 244(2-3):77--202, 1994.
+\bibitem{Lawson1970}
+H. Blaine Lawson Jr.
+Complete minimal surfaces in <span>$S^3$</span>.
+<em>Annals of Mathematics</em>, 92(3):335--374, 1970.
+\bibitem{Geuzaine2009}
+Christophe Geuzaine and Jean-Fran\c{c}ois Remacle.
+Gmsh: A 3-D finite element mesh generator with built-in pre- and post-processing facilities.
+<em>International Journal for Numerical Methods in Engineering</em>, 79(11):1309--1331, 2009.
+\bibitem{Logg2012}
+Anders Logg, Kent-Andre Mardal, and Garth Wells (eds.).
+<em>Automated Solution of Differential Equations by the Finite Element Method: The FEniCS Book</em>.
+Springer, 2012.
+\bibitem{Blas2011}
+Diego Blas, Julien Lesgourgues, and Thomas Tram.
+The Cosmic Linear Anisotropy Solving System (CLASS) II: Approximation schemes.
+<em>Journal of Cosmology and Astroparticle Physics</em>, 2011(07):034, 2011.
+\bibitem{Lewis2000}
+Antony Lewis, Anthony Challinor, and Anthony Lasenby.
+Efficient computation of CMB anisotropies in closed FRW models.
+<em>The Astrophysical Journal</em>, 538(2):473--476, 2000.
+\bibitem{Audren2013}
+Boris Audren, Julien Lesgourgues, Karim Benabed, and Simon Prunet.
+Conservative constraints on early cosmology with MontePython.
+<em>Journal of Cosmology and Astroparticle Physics</em>, 2013(02):001, 2013.
+\bibitem{Rindler2006}
+Wolfgang Rindler.
+<em>Relativity: Special, General, and Cosmological</em>.
+Oxford University Press, 2nd edition, 2006.
+\bibitem{Hawking1992}
+Stephen W. Hawking.
+Chronology protection conjecture.
+<em>Physical Review D</em>, 46(2):603--611, 1992.
+\end{thebibliography}</p>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"(Get-Command codex -ErrorAction SilentlyContinue).Source\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
