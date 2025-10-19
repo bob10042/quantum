@@ -13,6 +13,7 @@ Mathematical frameworks for consciousness and quantum collapse theory.
 - CONSCIOUSNESS_COLLAPSE_THEORY.md - Collapse mechanism theory
 - unified-consciousness-reality-model.md - Unified model
 - PROOF_OF_FREE_WILL.md - Mathematical proof of free will
+- ELECTRON_PHOTON_CONSCIOUS_AGENTS.md - Classical and quantum classification of electron and photon consciousness
 
 ### Unified_Field_Theory/
 Unification models and scale-invariant theories.
@@ -64,5 +65,5 @@ Critical analysis, summaries, and responses.
 
 ---
 
-**Total Papers:** 30+ research documents
+**Total Papers:** 31 research documents
 **Last Updated:** October 19, 2025

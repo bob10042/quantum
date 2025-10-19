@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{physics}
+\usepackage{hyperref}
+\begin{document}
+
+\begin{center}
+{\LARGE Core Equations Reference}\\[1ex]
+Unified Framework Initiative
+\end{center}
+
+\section*{Gravitation (Einstein Limit)}
+\begin{itemize}
+    \item Einstein--Hilbert action in tetrad form:
+    \[
+    S_{\text{grav}} = \frac{1}{16\pi G}\int d^4x\, e\, e_a{}^\mu e_b{}^\nu R_{\mu\nu}{}^{ab}.
+    \]
+    \item Einstein field equations relating curvature to stress-energy:
+    \[
+    G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}.
+    \]
+    \item Contracted Bianchi identity ensuring $\nabla_\mu T^{\mu\nu} = 0$:
+    \[
+    \nabla_\mu G^{\mu\nu} = 0.
+    \]
+\end{itemize}
+
+\section*{Electromagnetism (Maxwell Limit)}
+\begin{itemize}
+    \item Electromagnetic action with external current:
+    \[
+    S_{\text{em}} = -\tfrac{1}{4}\int d^4x\, F_{\mu\nu}F^{\mu\nu} + \int d^4x\, J^\mu A_\mu.
+    \]
+    \item Sourced Maxwell equations:
+    \[
+    \partial_\mu F^{\mu\nu} = J^\nu.
+    \]
+    \item Homogeneous Maxwell equations (Bianchi identity for the gauge field):
+    \[
+    \partial_{[\lambda}F_{\mu\nu]} = 0.
+    \]
+\end{itemize}
+
+\section*{Fermions (Dirac Sector)}
+\begin{itemize}
+    \item Dirac action on a curved background:
+    \[
+    S_\psi = \int d^4x\, e\, \bar{\psi}\big(i\gamma^a e_a{}^\mu D_\mu - m\big)\psi.
+    \]
+    \item Covariant derivative with spin connection and gauge coupling:
+    \[
+    D_\mu = \partial_\mu + \tfrac{1}{4}\omega_\mu{}^{ab}\gamma_{ab} - igA_\mu.
+    \]
+    \item Axial current used for torsion sourcing:
+    \[
+    J_5^\mu = \bar{\psi}\gamma^\mu\gamma^5\psi.
+    \]
+\end{itemize}
+
+\section*{Torsion and Einstein--Cartan Relations}
+\begin{itemize}
+    \item Totally antisymmetric torsion from an axial vector $S^\rho$:
+    \[
+    T_{\lambda\mu\nu} = \epsilon_{\lambda\mu\nu\rho} S^\rho.
+    \]
+    \item Divergence of the Einstein tensor with axial torsion:
+    \[
+    \nabla_\mu G^{\mu 0} = \tfrac{3}{2}\,\sigma\,\dot{\sigma}.
+    \]
+    \item Einstein--Cartan relation between torsion and spin current:
+    \[
+    S_\mu = \frac{\kappa}{2} J_\mu^{(5)}.
+    \]
+    \item Homogeneous torsion sourced by the axial charge density:
+    \[
+    \sigma(t) = \frac{\kappa}{2} J_0^{(5)}, \qquad
+    J_0^{(5)} = \frac{p}{\sqrt{m^2 + p^2}}.
+    \]
+\end{itemize}
+
+\section*{Usage}
+All equations are implemented in the repository. Run
+\[
+\texttt{python tests/run\_all.py}
+\]
+to regenerate verification artifacts, including torsion and axial-current checks.
+
+\end{document}

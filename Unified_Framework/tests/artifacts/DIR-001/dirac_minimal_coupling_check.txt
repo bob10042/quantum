@@ -1,0 +1,14 @@
+minkowski: Dirac residual component 0 = 0
+minkowski: Dirac residual component 1 = 0
+minkowski: Dirac residual component 2 = 0
+minkowski: Dirac residual component 3 = 0
+minkowski: divergence = 0
+spatial_plane_wave: Dirac residual component 0 = 0
+spatial_plane_wave: Dirac residual component 1 = 0
+spatial_plane_wave: Dirac residual component 2 = 0
+spatial_plane_wave: Dirac residual component 3 = 0
+spatial_plane_wave: divergence = 0
+frw_flat: Dirac residual component 0 = 0
+frw_flat: Dirac residual component 1 = 0
+frw_flat: Dirac residual component 2 = 0
+frw_flat: Dirac residual component 3 = 0

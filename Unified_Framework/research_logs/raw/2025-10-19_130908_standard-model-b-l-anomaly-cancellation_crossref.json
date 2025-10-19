@@ -1,0 +1,740 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  3287612,
+                    "items":  [
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             4,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-04-01T08:12:22Z",
+                                                      "timestamp":  1648800742150
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "i-das",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "short-container-title":  [
+                                                                    "IJSIM"
+                                                                ],
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     2114,
+                                                                                     12,
+                                                                                     10
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.15556/ijsim.01.01.004",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2014,
+                                                                             12,
+                                                                             10
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2014-12-10T03:50:50Z",
+                                                      "timestamp":  1418183450000
+                                                  },
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  1,
+                                      "title":  [
+                                                    "Introducing a conceptual model of brand orientation within the context of Social Entrepreneurial Businesses"
+                                                ],
+                                      "prefix":  "10.15556",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Holger",
+                                                         "family":  "Schmidt",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     },
+                                                     {
+                                                         "given":  "Carsten",
+                                                         "family":  "Baumgarth",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     }
+                                                 ],
+                                      "member":  "6198",
+                                      "published-online":  {
+                                                               "date-parts":  [
+                                                                                  [
+                                                                                      2114,
+                                                                                      12,
+                                                                                      10
+                                                                                  ]
+                                                                              ]
+                                                           },
+                                      "container-title":  [
+                                                              "International Journal of Strategic Innovative Marketing"
+                                                          ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2014,
+                                                                               12,
+                                                                               10
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2014-12-10T03:50:51Z",
+                                                        "timestamp":  1418183451000
+                                                    },
+                                      "score":  4.395758,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://www.ijsim.net/index.php/papers/item/11-introducing-a-conceptual-model-of-brand-orientation-within-the-context-of-social-entrepreneurial-businesses"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2114,
+                                                                            12,
+                                                                            10
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "URL":  "https://doi.org/10.15556/ijsim.01.01.004",
+                                      "ISSN":  [
+                                                   "2241-8407"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "2241-8407",
+                                                            "type":  "print"
+                                                        }
+                                                    ],
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2114,
+                                                                               12,
+                                                                               10
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2023,
+                                                                             12,
+                                                                             19
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2023-12-19T18:40:21Z",
+                                                      "timestamp":  1703011221834
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Research Foundation International and Centre for Studies of National Development",
+                                      "issue":  "2",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "short-container-title":  [
+                                                                    "CSS"
+                                                                ],
+                                      "DOI":  "10.29070/27/57485",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2019,
+                                                                             2,
+                                                                             27
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2019-02-27T09:59:03Z",
+                                                      "timestamp":  1551261543000
+                                                  },
+                                      "page":  "229-244",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Barriers to Adaptation of Information and Communication Technologies : An Ecological Model Perspective"
+                                                ],
+                                      "prefix":  "10.62047",
+                                      "volume":  "27",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Nimmy Maria",
+                                                         "family":  "Joseph",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     },
+                                                     {
+                                                         "given":  "P. E.",
+                                                         "family":  "Thomas",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     }
+                                                 ],
+                                      "member":  "48392",
+                                      "published-online":  {
+                                                               "date-parts":  [
+                                                                                  [
+                                                                                      2108,
+                                                                                      4,
+                                                                                      1
+                                                                                  ]
+                                                                              ]
+                                                           },
+                                      "container-title":  [
+                                                              "Contemporary Social Sciences"
+                                                          ],
+                                      "original-title":  [
+                                                             "Barriers to Adaptation of Information and Communication Technologies : An Ecological Model Perspective"
+                                                         ],
+                                      "link":  [
+                                                   {
+                                                       "URL":  "http://www.ignited.in/File_upload/92815_79786478.pdf",
+                                                       "content-type":  "unspecified",
+                                                       "content-version":  "vor",
+                                                       "intended-application":  "similarity-checking"
+                                                   }
+                                               ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2023,
+                                                                               12,
+                                                                               19
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2023-12-19T18:25:09Z",
+                                                        "timestamp":  1703010309000
+                                                    },
+                                      "score":  5.3849163,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://jndcss.ipublisher.in/I/a/57485"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2108,
+                                                                            4,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "2",
+                                                            "published-online":  {
+                                                                                     "date-parts":  [
+                                                                                                        [
+                                                                                                            2018,
+                                                                                                            4,
+                                                                                                            1
+                                                                                                        ]
+                                                                                                    ]
+                                                                                 }
+                                                        },
+                                      "URL":  "https://doi.org/10.29070/27/57485",
+                                      "ISSN":  [
+                                                   "0302-9298"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "0302-9298",
+                                                            "type":  "electronic"
+                                                        }
+                                                    ],
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2108,
+                                                                               4,
+                                                                               1
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2024,
+                                                                             7,
+                                                                             7
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2024-07-07T10:10:45Z",
+                                                      "timestamp":  1720347045890
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Basrah Journal of Veterinary Research",
+                                      "issue":  "1",
+                                      "content-domain":  {
+                                                             "domain":  [
+                                                                            "bjvr.uobasrah.edu.iq"
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "short-container-title":  [
+                                                                    "Basrah J. Vet. Res."
+                                                                ],
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     2031,
+                                                                                     8,
+                                                                                     1
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.23975/bjvetr.2031.175853",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2024,
+                                                                             7,
+                                                                             7
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2024-07-07T09:30:48Z",
+                                                      "timestamp":  1720344648000
+                                                  },
+                                      "page":  "24-38",
+                                      "update-policy":  "http://dx.doi.org/10.23975/crossmark_policy",
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "USING OF LAB ANIMALS AS A MODEL TO STUDY THE DRUG TOXICITY IN COVID-19"
+                                                ],
+                                      "prefix":  "10.23975",
+                                      "volume":  "20",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Y.Z.",
+                                                         "family":  "Al-abdaly",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     },
+                                                     {
+                                                         "given":  "R.F",
+                                                         "family":  "Al-Shalchi",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     }
+                                                 ],
+                                      "member":  "10064",
+                                      "published-online":  {
+                                                               "date-parts":  [
+                                                                                  [
+                                                                                      2031,
+                                                                                      8,
+                                                                                      1
+                                                                                  ]
+                                                                              ]
+                                                           },
+                                      "container-title":  [
+                                                              "Basrah Journal of Veterinary Research"
+                                                          ],
+                                      "language":  "en",
+                                      "link":  [
+                                                   {
+                                                       "URL":  "https://bjvr.uobasrah.edu.iq/article_175853_23f00ef3cd55aa4fa0bc620f0f338b68.pdf",
+                                                       "content-type":  "unspecified",
+                                                       "content-version":  "vor",
+                                                       "intended-application":  "similarity-checking"
+                                                   }
+                                               ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2024,
+                                                                               7,
+                                                                               7
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2024-07-07T09:30:48Z",
+                                                        "timestamp":  1720344648000
+                                                    },
+                                      "score":  3.949564,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://bjvr.uobasrah.edu.iq/article_175853.html"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2031,
+                                                                            8,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "1",
+                                                            "published-online":  {
+                                                                                     "date-parts":  [
+                                                                                                        [
+                                                                                                            2031,
+                                                                                                            8,
+                                                                                                            1
+                                                                                                        ]
+                                                                                                    ]
+                                                                                 },
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           2031,
+                                                                                                           8,
+                                                                                                           1
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "URL":  "https://doi.org/10.23975/bjvetr.2031.175853",
+                                      "ISSN":  [
+                                                   "2410-8456"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "2410-8456",
+                                                            "type":  "electronic"
+                                                        }
+                                                    ],
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2031,
+                                                                               8,
+                                                                               1
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             8,
+                                                                             30
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-08-30T00:05:54Z",
+                                                      "timestamp":  1756512354899,
+                                                      "version":  "3.44.0"
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Inderscience Publishers",
+                                      "issue":  "1",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "short-container-title":  [
+                                                                    "IJBPM"
+                                                                ],
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     2028
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1504/ijbpm.2028.10073153",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             8,
+                                                                             29
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-08-29T13:01:50Z",
+                                                      "timestamp":  1756472510000
+                                                  },
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "Presentation of a model for evaluating the performance of universities and higher education institutions based on a hybrid pattern (case study: Herat, Afghanistan)"
+                                                ],
+                                      "prefix":  "10.1504",
+                                      "volume":  "1",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Sayed Mohammad",
+                                                         "family":  "Hussaini",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     },
+                                                     {
+                                                         "given":  "Sayed Haidar",
+                                                         "family":  "Mirfakhradini",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     }
+                                                 ],
+                                      "member":  "378",
+                                      "container-title":  [
+                                                              "International Journal of Business Performance Management"
+                                                          ],
+                                      "language":  "en",
+                                      "link":  [
+                                                   {
+                                                       "URL":  "http://www.inderscienceonline.com/doi/full/10.1504/IJBPM.2028.10073153",
+                                                       "content-type":  "unspecified",
+                                                       "content-version":  "vor",
+                                                       "intended-application":  "similarity-checking"
+                                                   }
+                                               ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2025,
+                                                                               8,
+                                                                               29
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2025-08-29T13:01:51Z",
+                                                        "timestamp":  1756472511000
+                                                    },
+                                      "score":  3.7067904,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://www.inderscience.com/link.php?id=10073153"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2028
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "1",
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           2028
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "URL":  "https://doi.org/10.1504/ijbpm.2028.10073153",
+                                      "ISSN":  [
+                                                   "1368-4892",
+                                                   "1741-5039"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "1368-4892",
+                                                            "type":  "print"
+                                                        },
+                                                        {
+                                                            "value":  "1741-5039",
+                                                            "type":  "electronic"
+                                                        }
+                                                    ],
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2028
+                                                                           ]
+                                                                       ]
+                                                    },
+                                      "article-number":  "10073153"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             7,
+                                                                             30
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-07-30T14:19:02Z",
+                                                      "timestamp":  1753885142541,
+                                                      "version":  "3.41.2"
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Inderscience Publishers",
+                                      "issue":  "1",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "short-container-title":  [
+                                                                    "IJBEM"
+                                                                ],
+                                      "published-print":  {
+                                                              "date-parts":  [
+                                                                                 [
+                                                                                     2028
+                                                                                 ]
+                                                                             ]
+                                                          },
+                                      "DOI":  "10.1504/ijbem.2028.10068877",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             1,
+                                                                             16
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-01-16T14:00:10Z",
+                                                      "timestamp":  1737036010000
+                                                  },
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "From value to purpose: a framework of how and why corporations innovate their business model"
+                                                ],
+                                      "prefix":  "10.1504",
+                                      "volume":  "1",
+                                      "author":  [
+                                                     {
+                                                         "given":  "Renato",
+                                                         "family":  "Pereira",
+                                                         "sequence":  "first",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     },
+                                                     {
+                                                         "given":  "Rute",
+                                                         "family":  "Xavier",
+                                                         "sequence":  "additional",
+                                                         "affiliation":  [
+
+                                                                         ]
+                                                     }
+                                                 ],
+                                      "member":  "378",
+                                      "container-title":  [
+                                                              "International Journal of Business and Emerging Markets"
+                                                          ],
+                                      "language":  "en",
+                                      "link":  [
+                                                   {
+                                                       "URL":  "http://www.inderscienceonline.com/doi/full/10.1504/IJBEM.2028.10068877",
+                                                       "content-type":  "unspecified",
+                                                       "content-version":  "vor",
+                                                       "intended-application":  "similarity-checking"
+                                                   }
+                                               ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2025,
+                                                                               1,
+                                                                               16
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2025-01-16T14:00:10Z",
+                                                        "timestamp":  1737036010000
+                                                    },
+                                      "score":  4.089682,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "http://www.inderscience.com/link.php?id=10068877"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2028
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "1",
+                                                            "published-print":  {
+                                                                                    "date-parts":  [
+                                                                                                       [
+                                                                                                           2028
+                                                                                                       ]
+                                                                                                   ]
+                                                                                }
+                                                        },
+                                      "URL":  "https://doi.org/10.1504/ijbem.2028.10068877",
+                                      "ISSN":  [
+                                                   "1753-6219",
+                                                   "1753-6227"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "type":  "print",
+                                                            "value":  "1753-6219"
+                                                        },
+                                                        {
+                                                            "type":  "electronic",
+                                                            "value":  "1753-6227"
+                                                        }
+                                                    ],
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2028
+                                                                           ]
+                                                                       ]
+                                                    },
+                                      "article-number":  "10068877"
+                                  }
+                              ],
+                    "items-per-page":  5,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  "Standard Model B-L anomaly cancellation"
+                              }
+                }
+}

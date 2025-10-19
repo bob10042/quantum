@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3ACartan%20geometry%20unification%20torsion%26id_list%3D%26start%3D0%26max_results%3D5" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:Cartan geometry unification torsion&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <id>http://arxiv.org/api/8C7yRSg9ItGTkLPbIiupb2EsFXM</id>
+  <updated>2025-10-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">224139</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">5</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1302.3255v1</id>
+    <updated>2013-02-11T14:46:19Z</updated>
+    <published>2013-02-11T14:46:19Z</published>
+    <title>Finsler Metrics with Bounded Cartan Torsions</title>
+    <summary>  The norm of Cartan torsion plays an important role for studying of immersion
+theory in Finsler geometry. Indeed, Finsler manifold with unbounded Cartan
+torsion can not be isometrically imbedded into any Minkowski space. In this
+paper, we find two subclasses of (?, ?)-metrics which have bounded Cartan
+torsion. Then, we give two subclasses of (?, ?)-metrics whose bound on the
+Cartan torsions are independent of the norm of ?.
+</summary>
+    <author>
+      <name>A. Tayebi</name>
+    </author>
+    <author>
+      <name>H. Sadeghi</name>
+    </author>
+    <author>
+      <name>E. Peyghan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1302.3255v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1302.3255v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53C60, 53C25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.03165v1</id>
+    <updated>2025-08-05T07:10:57Z</updated>
+    <published>2025-08-05T07:10:57Z</published>
+    <title>On the Cartan torsion of Minkowskian product of Finsler manifolds</title>
+    <summary>  In this paper, we investigate the Cartan torsion and mean Cartan torsion of
+the Minkowskian product of two Finsler metrics. We derive explicit formulas for
+both torsions and analyze their geometric behavior. In particular, we
+demonstrate that both the Cartan torsion and mean Cartan torsion decompose
+additively if and only if the Minkowskian product is Euclidean. Additionally,
+we provide a necessary and sufficient condition for the norm of the mean Cartan
+torsion to remain bounded in the Euclidean case.
+</summary>
+    <author>
+      <name>Ranadip Gangopadhyay</name>
+    </author>
+    <link href="http://arxiv.org/abs/2508.03165v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2508.03165v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53B40, 53C60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.5951v3</id>
+    <updated>2012-06-24T23:42:04Z</updated>
+    <published>2012-04-26T14:53:32Z</published>
+    <title>Dirac and Generalized Complex Structures on Cartan Geometries</title>
+    <summary>  We introduce linear Dirac and generalized complex structures on Cartan
+geometries and give criteria for Dirac subalgebras of $\frkg\ltimes\frkg^*$
+representing Dirac structures on a Cartan geometry. We prove that there is a
+bijection between the linear generalized structures on a torsion free Cartan
+geometry and the equivariant generalized structures on its corresponding
+homogeneous space.
+</summary>
+    <author>
+      <name>Honglei Lang</name>
+    </author>
+    <author>
+      <name>Xiaomeng Xu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1204.5951v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1204.5951v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9808004v1</id>
+    <updated>1998-08-03T08:47:37Z</updated>
+    <published>1998-08-03T08:47:37Z</published>
+    <title>Einstein-Cartan-Maxwell Theory with Scalar Field through a
+  Five-Dimensional Unification</title>
+    <summary>  A modification of Kaluza-Klein theory is proposed in which, as a result of a
+symmetry breaking, five-dimensional space-time is partially parallelized
+implying the appearance of torsion fields. A naturally chosen action functional
+leads to the Einstein-Cartan-Maxwell theory where the electromagnetic field
+strength is represented by the fifth component of the torsion 2-form.
+Incorporation of a scalar field reveals that four-dimensional space-time
+torsion is not induced by the scalar field.
+</summary>
+    <author>
+      <name>C. Kohler</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1142/S0217751X00000562</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1142/S0217751X00000562" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, REVTeX</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Int.J.Mod.Phys. A15 (2000) 1235-1244</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/gr-qc/9808004v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/gr-qc/9808004v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.1557v1</id>
+    <updated>2012-11-07T14:20:48Z</updated>
+    <published>2012-11-07T14:20:48Z</published>
+    <title>Scalar torsion and a new symmetry of general relativity</title>
+    <summary>  We reformulate the general theory of relativity in the language of
+Riemann-Cartan geometry. We start from the assumption that the space-time can
+be described as a non-Riemannian manifold, which, in addition to the metric
+field, is endowed with torsion. In this new framework, the gravitational field
+is represented not only by the metric, but also by the torsion, which is
+completely determined by a geometric scalar field. We show that in this
+formulation general relativity has a new kind of invariance, whose invariance
+group consists of a set of conformal and gauge transformations, called Cartan
+transformations. These involve both the metric tensor and the torsion vector
+field, and are similar to the well known Weyl gauge transformations. By making
+use of the concept of Cartan gauges, we show that, under Cartan
+transformations, the new formalism leads to different pictures of the same
+gravitational phenomena. We show that in an arbitrary Cartan gauge general
+relativity has the form of a scalar-tensor theory. In this approach, the
+Riemann-Cartan geometry appears as the natural geometrical setting of the
+general relativity theory when the latter is viewed in an arbitrary Cartan
+gauge. We illustrate this fact by looking at the one of the classical tests of
+general relativity theory, namely the gravitational spectral shift. Finally, we
+extend the concept of space-time symmetry to the more general case of
+Riemann-Cartan space-times endowed with scalar torsion. As an example, we
+obtain the conservation laws for auto-parallel motion in a static spherically
+symmetric vacuum space-time in a Cartan gauge, whose orbits are identical to
+Schwarzschild orbits in general relativity.
+</summary>
+    <author>
+      <name>J. B. Fonseca-Neto</name>
+    </author>
+    <author>
+      <name>C. Romero</name>
+    </author>
+    <author>
+      <name>S. P. G. Martinez</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10714-013-1553-6</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10714-013-1553-6" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages. arXiv admin note: text overlap with arXiv:1201.1469</arxiv:comment>
+    <link href="http://arxiv.org/abs/1211.1557v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1211.1557v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
+

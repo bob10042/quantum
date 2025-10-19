@@ -1,0 +1,15 @@
+vacuum_plane_wave: d_mu F^mu0 = 0
+vacuum_plane_wave: d_mu F^mu1 = 0
+vacuum_plane_wave: d_mu F^mu2 = 0
+vacuum_plane_wave: d_mu F^mu3 = 0
+vacuum_plane_wave: numeric residual max = 0.00e+00
+uniform_charge: d_mu F^mu0 = rho0
+uniform_charge: d_mu F^mu1 = 0
+uniform_charge: d_mu F^mu2 = 0
+uniform_charge: d_mu F^mu3 = 0
+uniform_charge: numeric residual max = 0.00e+00
+time_current: d_mu F^mu0 = 0
+time_current: d_mu F^mu1 = 0
+time_current: d_mu F^mu2 = 0
+time_current: d_mu F^mu3 = J0
+time_current: numeric residual max = 0.00e+00

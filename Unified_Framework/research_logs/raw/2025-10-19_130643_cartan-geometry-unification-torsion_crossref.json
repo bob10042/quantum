@@ -1,0 +1,602 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work-list",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "facets":  {
+
+                               },
+                    "total-results":  256782,
+                    "items":  [
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2022,
+                                                                             9,
+                                                                             12
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2022-09-12T07:43:00Z",
+                                                      "timestamp":  1662968580478
+                                                  },
+                                      "reference-count":  0,
+                                      "publisher":  "Opast Group LLC",
+                                      "issue":  "2",
+                                      "content-domain":  {
+                                                             "domain":  [
+
+                                                                        ],
+                                                             "crossmark-restriction":  false
+                                                         },
+                                      "short-container-title":  [
+                                                                    "ATCP"
+                                                                ],
+                                      "abstract":  "\u003cjats:p\u003eWorking on relationships of three circles in common ratio [4/π or square root of the golden number ] and drawing lines of related tangents, squares and triangles, viewed on the paper plan, a figure having the shape of a section [Hexagonal] similar to that of an Icosahedron or Dodecahedron. This gave me the idea of searching for an existing probable Polyhedron built upon this traced shape. In fact this Polyhedron was built[ 4x scale], whose geometry relates to the Icosahedron and the Dodecahedron. It is a non regular Icosahedron having 12 Isosceli triangles and 8 Equilateral triangles. Mirror triangles cut to size, invested the structure for the configuration of a “Polyhedroheliotrope”Satellite Optical Tracking application.\u003c/jats:p\u003e",
+                                      "DOI":  "10.33140/atcp.02.02.04",
+                                      "type":  "journal-article",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2019,
+                                                                             7,
+                                                                             9
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2019-07-09T04:43:38Z",
+                                                      "timestamp":  1562647418000
+                                                  },
+                                      "source":  "Crossref",
+                                      "is-referenced-by-count":  0,
+                                      "title":  [
+                                                    "A Non-Regular Icosahedron Geometry Satellite Form, Mirror Invested Polyhedro Heliotrope, For Optical Tracking"
+                                                ],
+                                      "prefix":  "10.33140",
+                                      "volume":  "2",
+                                      "member":  "18493",
+                                      "published-online":  {
+                                                               "date-parts":  [
+                                                                                  [
+                                                                                      2029,
+                                                                                      5,
+                                                                                      15
+                                                                                  ]
+                                                                              ]
+                                                           },
+                                      "container-title":  [
+                                                              "Advances in Theoretical \u0026amp; Computational Physics"
+                                                          ],
+                                      "original-title":  [
+                                                             "A Non-Regular Icosahedron Geometry Satellite Form, Mirror Invested Polyhedro Heliotrope, For Optical Tracking"
+                                                         ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2022,
+                                                                               9,
+                                                                               12
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2022-09-12T07:23:47Z",
+                                                        "timestamp":  1662967427000
+                                                    },
+                                      "score":  8.965597,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://www.opastpublishers.com/wp-content/uploads/2019/06/a-non-regular-icosahedron-geometry-satellite-form-mirror-invested-polyhedro-heliotrope-for-optical-tracking-atcp-19.pdf"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2029,
+                                                                            5,
+                                                                            15
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "references-count":  0,
+                                      "journal-issue":  {
+                                                            "issue":  "2",
+                                                            "published-online":  {
+                                                                                     "date-parts":  [
+                                                                                                        [
+                                                                                                            2029,
+                                                                                                            5,
+                                                                                                            15
+                                                                                                        ]
+                                                                                                    ]
+                                                                                 }
+                                                        },
+                                      "URL":  "https://doi.org/10.33140/atcp.02.02.04",
+                                      "ISSN":  [
+                                                   "2639-0108"
+                                               ],
+                                      "issn-type":  [
+                                                        {
+                                                            "value":  "2639-0108",
+                                                            "type":  "electronic"
+                                                        }
+                                                    ],
+                                      "published":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2029,
+                                                                               5,
+                                                                               15
+                                                                           ]
+                                                                       ]
+                                                    }
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             4,
+                                                                             7
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-04-07T07:40:08Z",
+                                                      "timestamp":  1744011608160,
+                                                      "version":  "3.40.3"
+                                                  },
+                                      "publisher":  "Publications Office of the European Union",
+                                      "award-start":  {
+                                                          "date-parts":  [
+                                                                             [
+                                                                                 2026,
+                                                                                 9,
+                                                                                 1
+                                                                             ]
+                                                                         ]
+                                                      },
+                                      "award":  "101202810",
+                                      "DOI":  "10.3030/101202810",
+                                      "type":  "grant",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             4,
+                                                                             7
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-04-07T06:59:38Z",
+                                                      "timestamp":  1744009178000
+                                                  },
+                                      "source":  "Crossref",
+                                      "prefix":  "10.3030",
+                                      "member":  "4854",
+                                      "project":  [
+                                                      {
+                                                          "project-title":  [
+                                                                                {
+                                                                                    "title":  "Circle Patterns Bridging Hyperbolic Geometry and Statistical Mechanics",
+                                                                                    "language":  "en"
+                                                                                },
+                                                                                {
+                                                                                    "title":  "CircleBridge",
+                                                                                    "language":  "en"
+                                                                                }
+                                                                            ],
+                                                          "project-description":  [
+                                                                                      {
+                                                                                          "description":  "In our digital age, the development of discrete models that accurately capture the essential properties of their continuous counterparts is crucial for precise predictions and broad applications, from statistical mechanics to computer science. The CircleBridge project focuses on discrete conformal structures, particularly circle patterns, which serve as effective discretizations of conformal (angle-preserving) geometry  a field deeply rooted in complex analysis, geometry, and differential equations.\n\nCircleBridge seeks to expand the concept of circle patterns into the broader realm of complex projective structures, laying the groundwork for new theoretical insights. The project has two primary objectives: First, it aims to deepen our understanding of the space of circle patterns, developing computationally feasible tools to connect discrete conformality theories with their continuous analogs in Teichmller theory and hyperbolic 3-manifolds. Second, CircleBridge will explore the implications of these findings in statistical mechanics, where circle patterns have recently emerged as a universal framework for the planar bipartite dimer model.\n\nBy uniting leading experts from these fields in a transatlantic collaboration, CircleBridge will advance both theoretical knowledge and practical methodologies. This interdisciplinary effort aims to create a unified mathematical framework, paving the way for future discoveries across multiple disciplines.",
+                                                                                          "language":  "en"
+                                                                                      }
+                                                                                  ],
+                                                          "award-amount":  {
+                                                                               "amount":  200400.0,
+                                                                               "currency":  "EUR"
+                                                                           },
+                                                          "award-start":  {
+                                                                              "date-parts":  [
+                                                                                                 [
+                                                                                                     2026,
+                                                                                                     9,
+                                                                                                     1
+                                                                                                 ]
+                                                                                             ]
+                                                                          },
+                                                          "funding":  [
+                                                                          {
+                                                                              "type":  "grant",
+                                                                              "scheme":  "HORIZON.1.2",
+                                                                              "award-amount":  {
+                                                                                                   "amount":  200400.0,
+                                                                                                   "currency":  "EUR",
+                                                                                                   "percentage":  100
+                                                                                               },
+                                                                              "funder":  {
+                                                                                             "id":  "",
+                                                                                             "name":  "HORIZON EUROPE HORIZON.1.2"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                      }
+                                                  ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2025,
+                                                                               4,
+                                                                               7
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2025-04-07T06:59:38Z",
+                                                        "timestamp":  1744009178000
+                                                    },
+                                      "score":  8.711133,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://cordis.europa.eu/project/id/101202810"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2026,
+                                                                            9,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "URL":  "https://doi.org/10.3030/101202810"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             5,
+                                                                             6
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-05-06T04:01:40Z",
+                                                      "timestamp":  1746504100138,
+                                                      "version":  "3.40.4"
+                                                  },
+                                      "publisher":  "Publications Office of the European Union",
+                                      "award-start":  {
+                                                          "date-parts":  [
+                                                                             [
+                                                                                 2026,
+                                                                                 9,
+                                                                                 1
+                                                                             ]
+                                                                         ]
+                                                      },
+                                      "award":  "101206726",
+                                      "DOI":  "10.3030/101206726",
+                                      "type":  "grant",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             5,
+                                                                             5
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-05-05T06:37:36Z",
+                                                      "timestamp":  1746427056000
+                                                  },
+                                      "source":  "Crossref",
+                                      "prefix":  "10.3030",
+                                      "member":  "4854",
+                                      "project":  [
+                                                      {
+                                                          "project-title":  [
+                                                                                {
+                                                                                    "title":  "Stochastic Geometry and Novel MAC Schemes for Enhanced Satellite IoT Networks",
+                                                                                    "language":  "en"
+                                                                                },
+                                                                                {
+                                                                                    "title":  "SATNET-IoT",
+                                                                                    "language":  "en"
+                                                                                }
+                                                                            ],
+                                                          "project-description":  [
+                                                                                      {
+                                                                                          "description":  "The SATNET-IoT project addresses the significant challenges of extending IoT connectivity through satellite networks, particularly in remote areas where terrestrial coverage is insufficient. With terrestrial networks covering only 25% of the global landmass, satellite-based IoT solutions have become crucial for achieving any-time, any-device connectivity. The rise of non-geostationary orbit (NGSO) satellites, with their lower latency and improved data transfer speeds, offers promising opportunities for IoT communication. However, performing orbital simulations to know the exact locations of the satellites for each of them is time-consuming and computationally complex. Also, any new solution analysed based on specific satellite orbits cannot be generalized for other constellations. SATNET-IoT aims to utilize stochastic geometry for developing a mathematical framework to analyze the potential improvements in coverage across different regions and times offered by satellite networks, without requiring precise orbital data. The existing IoT communication protocols are also not designed to manage the dynamic, intermittent coverage inherent to satellite networks, nor do they account for the higher propagation delays and rapidly changing topology. SATNET-IoT aims to overcome these challenges by developing novel medium access control (MAC) layer protocols, ensuring efficient transmission scheduling and resource allocation within limited satellite visibility windows. The developed stochastic geometry framework and algorithms will be validated by deploying a real-time IoT network for air quality monitoring using software-defined radio to emulate satellite constellations.",
+                                                                                          "language":  "en"
+                                                                                      }
+                                                                                  ],
+                                                          "award-amount":  {
+                                                                               "amount":  242116.8,
+                                                                               "currency":  "EUR"
+                                                                           },
+                                                          "award-start":  {
+                                                                              "date-parts":  [
+                                                                                                 [
+                                                                                                     2026,
+                                                                                                     9,
+                                                                                                     1
+                                                                                                 ]
+                                                                                             ]
+                                                                          },
+                                                          "funding":  [
+                                                                          {
+                                                                              "type":  "grant",
+                                                                              "scheme":  "HORIZON.1.2",
+                                                                              "award-amount":  {
+                                                                                                   "amount":  242116.8,
+                                                                                                   "currency":  "EUR",
+                                                                                                   "percentage":  100
+                                                                                               },
+                                                                              "funder":  {
+                                                                                             "id":  "",
+                                                                                             "name":  "HORIZON EUROPE HORIZON.1.2"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                      }
+                                                  ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2025,
+                                                                               5,
+                                                                               5
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2025-05-05T06:37:36Z",
+                                                        "timestamp":  1746427056000
+                                                    },
+                                      "score":  8.251137,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://cordis.europa.eu/project/id/101206726"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2026,
+                                                                            9,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "URL":  "https://doi.org/10.3030/101206726"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             7
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-07T00:47:28Z",
+                                                      "timestamp":  1759798048778,
+                                                      "version":  "build-2065373602"
+                                                  },
+                                      "publisher":  "Publications Office of the European Union",
+                                      "award-start":  {
+                                                          "date-parts":  [
+                                                                             [
+                                                                                 2026,
+                                                                                 9,
+                                                                                 1
+                                                                             ]
+                                                                         ]
+                                                      },
+                                      "award":  "101219479",
+                                      "DOI":  "10.3030/101219479",
+                                      "type":  "grant",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             9,
+                                                                             5
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-09-05T13:48:07Z",
+                                                      "timestamp":  1757080087000
+                                                  },
+                                      "source":  "Crossref",
+                                      "prefix":  "10.3030",
+                                      "member":  "4854",
+                                      "project":  [
+                                                      {
+                                                          "project-title":  [
+                                                                                {
+                                                                                    "title":  "Geometry-driven self-organisation in active living matter",
+                                                                                    "language":  "en"
+                                                                                },
+                                                                                {
+                                                                                    "title":  "GOAL",
+                                                                                    "language":  "en"
+                                                                                }
+                                                                            ],
+                                                          "project-description":  [
+                                                                                      {
+                                                                                          "description":  "Living materials process information through their physical degrees of freedom, enabling autonomous functions beyond the capabilities of electronic systems. For example, a migrating cell uses its own shape dynamics to navigate through complex environments and decide which way to go. Yet, the principles underlying such physical information processing have not been identified due to the complexity inherent to problems involving fluctuating dynamic boundaries, and the need for a multidisciplinary approach to link theory with experiments.\n\nBuilding on recent scientific and methodological advances from my group, I propose to investigate how soft active materials perform computations and self-organise functional behaviours using the deformations of their own shape. Specifically, using surface anchoring effects in anisotropic materials as a paradigm for physical shape sensing, GOAL will identify how information is transferred from the covariant dynamics of active boundaries to surface-controlled bulk states, enabled by our novel approach to simulate active surface fluctuations (WP1-2). Combining theoretical results with experimental data from the technological frontier of biology, we will identify how the coupling between anisotropic materials and their geometry generates functional behaviours, such as autonomous object avoidance or embryo self-organisation (WP3). Lastly, we will leverage the visual accessibility of geometrical features to probe how machine learning approaches infer geometry-driven states and transitions from images, and to test our information theoretical predictions on shape sensing (WP4).\n\nGOAL will likely lead to the discovery of universal principles for shape-adaptive matter, because the nonlinear dependencies that arise from geometrical relations express fundamental mathematical properties of space that hold across all scales and contexts.",
+                                                                                          "language":  "en"
+                                                                                      }
+                                                                                  ],
+                                                          "award-amount":  {
+                                                                               "amount":  1473000.0,
+                                                                               "currency":  "EUR"
+                                                                           },
+                                                          "award-start":  {
+                                                                              "date-parts":  [
+                                                                                                 [
+                                                                                                     2026,
+                                                                                                     9,
+                                                                                                     1
+                                                                                                 ]
+                                                                                             ]
+                                                                          },
+                                                          "funding":  [
+                                                                          {
+                                                                              "type":  "grant",
+                                                                              "scheme":  "HORIZON.1.1",
+                                                                              "award-amount":  {
+                                                                                                   "amount":  1473000.0,
+                                                                                                   "currency":  "EUR",
+                                                                                                   "percentage":  100
+                                                                                               },
+                                                                              "funder":  {
+                                                                                             "id":  "",
+                                                                                             "name":  "HORIZON EUROPE HORIZON.1.1"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                      }
+                                                  ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2025,
+                                                                               10,
+                                                                               6
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2025-10-06T15:10:51Z",
+                                                        "timestamp":  1759763451000
+                                                    },
+                                      "score":  8.728492,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://cordis.europa.eu/project/id/101219479"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2026,
+                                                                            9,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "URL":  "https://doi.org/10.3030/101219479"
+                                  },
+                                  {
+                                      "indexed":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             9,
+                                                                             23
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-09-23T00:19:01Z",
+                                                      "timestamp":  1758586741685,
+                                                      "version":  "3.44.0"
+                                                  },
+                                      "publisher":  "Publications Office of the European Union",
+                                      "award-start":  {
+                                                          "date-parts":  [
+                                                                             [
+                                                                                 2026,
+                                                                                 9,
+                                                                                 1
+                                                                             ]
+                                                                         ]
+                                                      },
+                                      "award":  "101221523",
+                                      "DOI":  "10.3030/101221523",
+                                      "type":  "grant",
+                                      "created":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             9,
+                                                                             22
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-09-22T06:28:47Z",
+                                                      "timestamp":  1758522527000
+                                                  },
+                                      "source":  "Crossref",
+                                      "prefix":  "10.3030",
+                                      "member":  "4854",
+                                      "project":  [
+                                                      {
+                                                          "project-title":  [
+                                                                                {
+                                                                                    "title":  "Discrete Analysis and Quantitative Geometry",
+                                                                                    "language":  "en"
+                                                                                },
+                                                                                {
+                                                                                    "title":  "DiAnQuGe",
+                                                                                    "language":  "en"
+                                                                                }
+                                                                            ],
+                                                          "project-description":  [
+                                                                                      {
+                                                                                          "description":  "This project lies at the crossroads of analysis, geometry and probability theory. DiAnQuGe aims to uncover quantitative properties of geometric objects using techniques from functional analysis, harmonic analysis and probability. Specifically, it is dedicated to the following directions:\n\nHow well does a given metric space embed in a Banach space or a space with curvature bounds?\nIn Section 1, I propose to investigate the (in)compatibility of the geometries of finite metrics, including expander-like objects and balls of Carnot groups, with Alexandrov spaces of bounded curvature. Based on a well-established analogy with nonlinear Banach space theory, this will require the development of suitable metric invariants, thus forming a link with discrete analysis. On a related direction, I propose a systematic way to develop such invariants for normed spaces, which will serve as a categorical implementation of Bourgain\u0027s proposed Ribe program.\n\nHow does the spectrum of a voting system correlate with the behavior of individual voters?\nVoting systems are mathematically modeled by functions defined on the vertices of a hypercube in Euclidean space. In Section 2, I propose to utilize input from Fourier analysis, approximation theory and stochastic analysis to further understand the interaction of the spectrum and influences of Boolean functions, along with applications in computer science.\n\nHow does a high-dimensional convex set look like?\nIn Section 3, I propose to investigate sharp behaviors of isoperimetric profiles of convex sets using a mixture of geometric and probabilistic techniques, with a novel component from calculus of variations.\n\nDespite the different origins of these questions, all aforementioned objects share the common feature of having a large-yet-finite dimension, in an appropriate sense. This joint characteristic allows for the transfer of intuition and techniques from one field to the other and has been the driving force behind many recent advances.",
+                                                                                          "language":  "en"
+                                                                                      }
+                                                                                  ],
+                                                          "award-amount":  {
+                                                                               "amount":  1495150.0,
+                                                                               "currency":  "EUR"
+                                                                           },
+                                                          "award-start":  {
+                                                                              "date-parts":  [
+                                                                                                 [
+                                                                                                     2026,
+                                                                                                     9,
+                                                                                                     1
+                                                                                                 ]
+                                                                                             ]
+                                                                          },
+                                                          "funding":  [
+                                                                          {
+                                                                              "type":  "grant",
+                                                                              "scheme":  "HORIZON.1.1",
+                                                                              "award-amount":  {
+                                                                                                   "amount":  1495150.0,
+                                                                                                   "currency":  "EUR",
+                                                                                                   "percentage":  100
+                                                                                               },
+                                                                              "funder":  {
+                                                                                             "id":  "",
+                                                                                             "name":  "HORIZON EUROPE HORIZON.1.1"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                      }
+                                                  ],
+                                      "deposited":  {
+                                                        "date-parts":  [
+                                                                           [
+                                                                               2025,
+                                                                               9,
+                                                                               22
+                                                                           ]
+                                                                       ],
+                                                        "date-time":  "2025-09-22T06:28:47Z",
+                                                        "timestamp":  1758522527000
+                                                    },
+                                      "score":  9.104314,
+                                      "resource":  {
+                                                       "primary":  {
+                                                                       "URL":  "https://cordis.europa.eu/project/id/101221523"
+                                                                   }
+                                                   },
+                                      "issued":  {
+                                                     "date-parts":  [
+                                                                        [
+                                                                            2026,
+                                                                            9,
+                                                                            1
+                                                                        ]
+                                                                    ]
+                                                 },
+                                      "URL":  "https://doi.org/10.3030/101221523"
+                                  }
+                              ],
+                    "items-per-page":  5,
+                    "query":  {
+                                  "start-index":  0,
+                                  "search-terms":  "Cartan geometry unification torsion"
+                              }
+                }
+}

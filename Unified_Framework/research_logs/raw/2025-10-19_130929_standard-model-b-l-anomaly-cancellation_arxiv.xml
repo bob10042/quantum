@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3AStandard%20Model%20B-L%20anomaly%20cancellation%26id_list%3D%26start%3D0%26max_results%3D5" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:Standard Model B-L anomaly cancellation&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <id>http://arxiv.org/api/yRz0ShXDMEczcVyArz8O6+u8zfo</id>
+  <updated>2025-10-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1176263</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">5</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00991v1</id>
+    <updated>2016-05-03T17:31:14Z</updated>
+    <published>2016-05-03T17:31:14Z</published>
+    <title>Gauge $B-L$ Model of Radiative Neutrino Mass with Multipartite Dark
+  Matter</title>
+    <summary>  We propose an extension of the standard model of quarks and leptons to
+include gauge $B-L$ symmetry with an exotic array of neutral fermion singlets
+for anomaly cancellation. With the addition of suitable scalars also
+transforming under $U(1)_{B-L}$, this becomes a model of radiative seesaw
+neutrino mass with possible multipartite dark matter. If leptoquark fermions
+are added, necessarily also transforming under $B-L$, the diphoton excess at
+750 GeV, recently observed at the Large Hadron Collider, may also be explained.
+</summary>
+    <author>
+      <name>Ernest Ma</name>
+    </author>
+    <author>
+      <name>Nicholas Pollard</name>
+    </author>
+    <author>
+      <name>Oleg Popov</name>
+    </author>
+    <author>
+      <name>Mohammadreza Zakeri</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1142/S0217732316501637</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1142/S0217732316501637" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.00991v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.00991v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.04701v2</id>
+    <updated>2025-08-26T09:32:31Z</updated>
+    <published>2024-10-07T02:33:17Z</published>
+    <title>Leptogenesis from magnetic helicity of gauged $\text{U}(1)_{B-L}$</title>
+    <summary>  If the $B-L$ symmetry is gauged with the addition of right-handed neutrinos,
+the standard model $B-L$ current is anomalous with respect to the $B-L$ gauge
+field itself. Then, the anomaly relation implies that the magnetic helicity of
+the $B-L$ gauge field is related to the standard model $B-L$ charges, although
+the whole universe is $B-L$ neutral with right-handed neutrinos. Based on this,
+we propose a new leptogenesis scenario with the gauged $B-L$ symmetry as
+follows. First, the magnetic helicity of the $B-L$ gauge field is generated,
+e.g., by the axion inflation, together with the standard model and right-handed
+neutrino $B-L$ charges, with the net $B-L$ charge kept zero. The $B-L$ charges
+in the standard model and right-handed neutrino sectors are then subject to
+washout effects from the interactions between them. After the washout effects
+decouple, the $B-L$ gauge symmetry is Higgsed and the magnetic helicity of the
+$B-L$ gauge field decays and generates $B-L$ charges in the both sector; thanks
+to the washout effects, we obtain a non-zero $B-L$ asymmetry. We show that the
+baryon asymmetry of the universe can be generated in this scenario, discussing
+the decay of the magnetic helicity of the $B-L$ gauge field and the
+interactions between the right-handed neutrinos and the standard model
+particles.
+</summary>
+    <author>
+      <name>Hajime Fukuda</name>
+    </author>
+    <author>
+      <name>Kohei Kamada</name>
+    </author>
+    <author>
+      <name>Thanaporn Sichanugrist</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2410.04701v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2410.04701v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.08606v2</id>
+    <updated>2017-11-08T14:15:49Z</updated>
+    <published>2017-07-26T18:55:42Z</published>
+    <title>Dark Matter and the elusive $\mathbf{Z'}$ in a dynamical Inverse Seesaw
+  scenario</title>
+    <summary>  The Inverse Seesaw naturally explains the smallness of neutrino masses via an
+approximate $B-L$ symmetry broken only by a correspondingly small parameter. In
+this work the possible dynamical generation of the Inverse Seesaw neutrino mass
+mechanism from the spontaneous breaking of a gauged $U(1)$ $B-L$ symmetry is
+investigated. Interestingly, the Inverse Seesaw pattern requires a chiral
+content such that anomaly cancellation predicts the existence of extra fermions
+belonging to a dark sector with large, non-trivial, charges under the $U(1)$
+$B-L$. We investigate the phenomenology associated to these new states and find
+that one of them is a viable dark matter candidate with mass around the TeV
+scale, whose interaction with the Standard Model is mediated by the $Z'$ boson
+associated to the gauged $U(1)$ $B-L$ symmetry. Given the large charges
+required for anomaly cancellation in the dark sector, the $B-L$ $Z'$ interacts
+preferentially with this dark sector rather than with the Standard Model. This
+suppresses the rate at direct detection searches and thus alleviates the
+constraints on $Z'$-mediated dark matter relic abundance. The collider
+phenomenology of this elusive $Z'$ is also discussed.
+</summary>
+    <author>
+      <name>Valentina De Romeri</name>
+    </author>
+    <author>
+      <name>Enrique Fernandez-Martinez</name>
+    </author>
+    <author>
+      <name>Julia Gehrlein</name>
+    </author>
+    <author>
+      <name>Pedro A. N. Machado</name>
+    </author>
+    <author>
+      <name>Viviana Niro</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP10(2017)169</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP10(2017)169" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 2 figures, matches published version in JHEP</arxiv:comment>
+    <link href="http://arxiv.org/abs/1707.08606v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.08606v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.4462v1</id>
+    <updated>2011-06-22T14:26:45Z</updated>
+    <published>2011-06-22T14:26:45Z</published>
+    <title>Phenomenology of the minimal B-L extension of the Standard Model at the
+  LHC</title>
+    <summary>  A well-motivated framework to naturally introduce neutrino masses is the B-L
+model, a U(1) extension of the standard model related to the baryon minus
+lepton gauged number. Besides three right-handed neutrinos, that are included
+to cancel the anomalies (thereby naturally providing neutrino masses), this
+model also encompasses a complex scalar for the spontaneous symmetry breaking
+of the extended gauge sector and to give mass to the Z' boson. We present the
+phenomenology, the discovery potential at the LHC, and the most up-to-date
+experimental and theoretical limits of the new particles in this model.
+</summary>
+    <author>
+      <name>Lorenzo Basso</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Ph.D. Thesis. 153 pages. 49 figures, 12 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1106.4462v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1106.4462v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9509227v1</id>
+    <updated>1995-09-05T13:49:51Z</updated>
+    <published>1995-09-05T13:49:51Z</published>
+    <title>Standard Model Anomalies in Curved Space-Time with Torsion</title>
+    <summary>  Using the Fujikawa and the heat-kernel methods we make a complete and
+detailed computation of the global, gauge and gravitational anomalies present
+in the Standard Model defined on a curved space time with torsion. We find new
+contributions coming from curvature and torsion terms to the leptonic number
+anomaly (so that $B-L$ is not conserved any more), to the $U(1)_Y$ gauge and to
+the mixed $U(1)_Y$-gravitational anomalies, but the gauge anomaly cancellation
+conditions on the hypercharges remain the same. We also find that the
+condition, usually related to the cancellation of the mixed
+$U(1)_Y$-gravitational anomaly, can be reobtained in the context of the
+Standard Model in flat space-time by requiring the cancellation of the global
+Lorentz anomaly without any reference to gravitation.
+</summary>
+    <author>
+      <name>Antonio Dobado</name>
+    </author>
+    <author>
+      <name>Antonio L. Maroto</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevD.54.5185</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevD.54.5185" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">44 pages, latex, no figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys.Rev.D54:5185-5194,1996</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/hep-ph/9509227v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/hep-ph/9509227v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
+

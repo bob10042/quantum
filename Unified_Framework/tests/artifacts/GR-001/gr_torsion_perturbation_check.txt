@@ -1,0 +1,20 @@
+## minkowski
+minkowski: torsion_divergence[0] = 3*sigma(t)*Derivative(sigma(t), t)/2
+minkowski: torsion_divergence[1] = 0
+minkowski: torsion_divergence[2] = 0
+minkowski: torsion_divergence[3] = -sigma(t)*Derivative(tau(t), t) - tau(t)*Derivative(sigma(t), t)/2
+minkowski: sigma_prime = Derivative(sigma(t), t)
+minkowski: divergence_with_sigma_eq_kappa_s = 3*kappa**2*s(t)*Derivative(s(t), t)/2
+minkowski: divergence_with_dirac_axial = 0
+minkowski: tau_profile = kappa
+## frw_flat
+frw_flat: torsion_divergence[0] = (2*a(t)**2*tau(t)**2*Derivative(a(t), t) + 3*a(t)*sigma(t)*Derivative(sigma(t), t) - 9*sigma(t)**2*Derivative(a(t), t))/(2*a(t)**7)
+frw_flat: torsion_divergence[1] = 0
+frw_flat: torsion_divergence[2] = 0
+frw_flat: torsion_divergence[3] = (-(2*sigma(t)*Derivative(tau(t), t) + tau(t)*Derivative(sigma(t), t))*a(t) + 4*sigma(t)*tau(t)*Derivative(a(t), t))/(2*a(t)**5)
+frw_flat: sigma_prime = Derivative(sigma(t), t)
+frw_flat: divergence_with_sigma_eq_kappa_s = (3*kappa**2*a(t)*s(t)*Derivative(s(t), t) - 9*kappa**2*s(t)**2*Derivative(a(t), t) + 2*a(t)**2*tau(t)**2*Derivative(a(t), t))/(2*a(t)**7)
+frw_flat: divergence_with_dirac_axial = 0
+frw_flat: tau_profile = -3*sqrt(2)*kappa*p_dirac/(2*sqrt(m_dirac**2 + p_dirac**2)*a(t))
+axial_current_components = [p_dirac/sqrt(m_dirac**2 + p_dirac**2), 0, 0, 1]
+Note: Spatial torsion component τ must track σ and a(t) to cancel FRW divergence.

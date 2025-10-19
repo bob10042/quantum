@@ -1,0 +1,10 @@
+## Homogeneous perfect fluid
+divergence[0] = 0
+divergence[1] = 0
+divergence[2] = 0
+divergence[3] = 0
+## Plane-wave radiation
+divergence[0] = 0
+divergence[1] = 0
+divergence[2] = 0
+divergence[3] = 0

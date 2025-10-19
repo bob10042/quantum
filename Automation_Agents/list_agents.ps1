@@ -8,8 +8,8 @@ Write-Host "         MY AUTOMATION AGENTS           " -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
-$agentPath = "C:\Users\bob43\Downloads\quantum"
-$agents = Get-ChildItem "$agentPath\*.ps1" | Sort-Object Name
+$agentPath = Split-Path -Parent $PSCommandPath
+$agents = Get-ChildItem -Path $agentPath -Filter *.ps1 -File | Sort-Object Name
 
 Write-Host "Location: $agentPath" -ForegroundColor Gray
 Write-Host "Total Agents: $($agents.Count)" -ForegroundColor Green
@@ -45,7 +45,7 @@ Write-Host "Usage Examples:" -ForegroundColor Yellow
 Write-Host "  list_agents.ps1              " -NoNewline; Write-Host "# Simple list" -ForegroundColor Gray
 Write-Host "  list_agents.ps1 -Detailed    " -NoNewline; Write-Host "# Detailed info" -ForegroundColor Gray
 Write-Host ""
-Write-Host "Run any agent by typing its name!" -ForegroundColor Green
+Write-Host "Run any agent from $agentPath by typing its name!" -ForegroundColor Green
 Write-Host "Example: " -NoNewline -ForegroundColor Gray
-Write-Host "research_agent.ps1 -Query 'quantum physics'" -ForegroundColor White
+Write-Host "unification_research_agent.ps1 -Query 'geometric unification'" -ForegroundColor White
 Write-Host ""
