@@ -1,0 +1,79 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+_temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.sublime-*
+
+# Git
+*.orig
+
+# Compiled executables (except specific ones we want to keep)
+*.o
+*.obj
+*.exe.stackdump
+
+# Data files (large)
+*.csv.backup
+*.dat
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Logs
+*.log
+logs/
+
+# Build directories
+LaTeX_Source/*/build/

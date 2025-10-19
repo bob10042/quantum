@@ -1,5 +1,5 @@
 # Add Codex to PATH
-$codexPath = "C:\Users\bob43\.vscode\extensions\openai.chatgpt-0.4.19-win32-x64\bin\windows-x86_64"
+$codexPath = "C:\Users\bob43\.vscode\extensions\openai.chatgpt-0.4.21-win32-x64\bin\windows-x86_64"
 $currentPath = [Environment]::GetEnvironmentVariable('Path', 'User')
 
 if ($currentPath -notlike "*$codexPath*") {
